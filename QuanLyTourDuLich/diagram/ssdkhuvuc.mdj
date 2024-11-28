@@ -1185,11 +1185,13 @@
 													"_parent": {
 														"$ref": "AAAAAAGTXFrTZBMYbPo="
 													},
-													"visible": false,
 													"font": "Arial;13;0",
 													"parentStyle": true,
-													"left": -48,
-													"height": 13
+													"left": 845,
+													"top": 45,
+													"width": 199,
+													"height": 13,
+													"text": "«metaclass»"
 												},
 												{
 													"_type": "LabelView",
@@ -1200,7 +1202,7 @@
 													"font": "Arial;13;1",
 													"parentStyle": true,
 													"left": 845,
-													"top": 47,
+													"top": 60,
 													"width": 199,
 													"height": 13,
 													"text": ":System"
@@ -4344,6 +4346,7 @@
 								"$ref": "AAAAAAGTXEZ5BREeLzQ="
 							},
 							"name": ":System",
+							"stereotype": "metaclass",
 							"represent": {
 								"$ref": "AAAAAAGTXFrTZBMVHsI="
 							},
