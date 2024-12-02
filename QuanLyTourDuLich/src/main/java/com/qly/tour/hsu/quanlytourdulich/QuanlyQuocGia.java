@@ -99,7 +99,7 @@ public class QuanlyQuocGia {
             public int compare(QuocGia q1, QuocGia q2) {
                 if (q1.getQuocGia().compareTo(q2.getQuocGia()) > 0) {
                     return 1;
-                } else if ((q1.getQuocGia().compareTo(q2.getQuocGia()) == 0)) {
+                } else if (q1.getQuocGia().compareTo(q2.getQuocGia()) == 0) {
                     return 0;
                 } else {
                     return -1;
