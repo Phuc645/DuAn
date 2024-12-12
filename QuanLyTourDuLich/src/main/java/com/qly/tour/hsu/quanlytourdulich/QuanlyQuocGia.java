@@ -20,7 +20,8 @@ public class QuanlyQuocGia {
         System.out.format("Nhap thong tin quoc gia:");
         qg.setThongTinQuocgia(sc0.nextLine());
         dsQuocGia.add(qg);
-        System.out.format("Da them thanh cong");
+        System.out.format("Da them thanh cong\n");
+        inQuocgia();
     }
 
     public void capNhatQuocgia() {

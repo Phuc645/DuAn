@@ -18,23 +18,7 @@
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
 					"name": "Main",
-					"defaultDiagram": true,
-					"ownedViews": [
-						{
-							"_type": "UMLTextView",
-							"_id": "AAAAAAGTjP7QNllcuwo=",
-							"_parent": {
-								"$ref": "AAAAAAFF+qBtyKM79qY="
-							},
-							"font": "Arial;13;0",
-							"parentStyle": false,
-							"left": 142,
-							"top": 203,
-							"width": 100,
-							"height": 25,
-							"text": "Text"
-						}
-					]
+					"defaultDiagram": true
 				}
 			]
 		},
@@ -3380,9 +3364,9 @@
 											},
 											"font": "Arial;13;0",
 											"parentStyle": true,
-											"left": 120.72998046875,
+											"left": 118.55908203125,
 											"top": 13,
-											"width": 92.49169921875,
+											"width": 85.1982421875,
 											"height": 13,
 											"text": "QuanlyQuocGia"
 										},
@@ -3396,7 +3380,7 @@
 											"parentStyle": true,
 											"left": 101,
 											"top": 13,
-											"width": 13.72998046875,
+											"width": 11.55908203125,
 											"height": 13,
 											"text": "sd"
 										}
