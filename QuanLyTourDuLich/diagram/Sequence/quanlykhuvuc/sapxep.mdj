@@ -1470,14 +1470,14 @@
 											"left": 56,
 											"top": 106,
 											"width": 1,
-											"height": 982
+											"height": 33
 										}
 									],
 									"font": "Arial;13;0",
 									"parentStyle": false,
 									"top": 40,
 									"width": 111.1181640625,
-									"height": 1048,
+									"height": 99,
 									"stereotypeDisplay": "icon",
 									"nameCompartment": {
 										"$ref": "AAAAAAGTiuBNfr7JZOQ="
@@ -4254,9 +4254,9 @@
 											},
 											"font": "Arial;13;0",
 											"parentStyle": true,
-											"left": 150.55908203125,
+											"left": 152.72998046875,
 											"top": 5,
-											"width": 131.9296875,
+											"width": 145.9833984375,
 											"height": 13,
 											"text": "sapXepQuocGiaTheoTen"
 										},
@@ -4270,7 +4270,7 @@
 											"parentStyle": true,
 											"left": 133,
 											"top": 5,
-											"width": 11.55908203125,
+											"width": 13.72998046875,
 											"height": 13,
 											"text": "sd"
 										}

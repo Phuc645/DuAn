@@ -21,6 +21,7 @@ public class QuanlyKhuVuc {
         kv.setThongTinKhuvuc(sc0.nextLine());
         dsKhuVuc.add(kv);
         System.out.format("Them khu vuc thanh cong");
+        inKhuvuc();
     }
 
     public void capNhatKhuVuc() {
@@ -44,6 +45,7 @@ public class QuanlyKhuVuc {
             String thongtin = sc.next();
             kv.setThongTinKhuvuc(thongtin);
             System.out.format("Cap nhat thanh cong");
+            inKhuvuc();
         } else {
             System.out.format("Khu vuc khong ton tai");
         }
@@ -66,6 +68,7 @@ public class QuanlyKhuVuc {
         if (c == true) {
             dsKhuVuc.remove(kv);
             System.out.format("Xoa thanh cong");
+            inKhuvuc();
         } else {
             System.out.format("Khu vuc khong ton tai");
         }

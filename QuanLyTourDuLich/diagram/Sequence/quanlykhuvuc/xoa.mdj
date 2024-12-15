@@ -44,7 +44,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGThY2d4mghp0I="
 							},
-							"name": "xoaQuocgia",
+							"name": "xoaKhuvuc",
 							"ownedViews": [
 								{
 									"_type": "UMLFrameView",
@@ -66,9 +66,9 @@
 											"parentStyle": true,
 											"left": 24.72998046875,
 											"top": 5,
-											"width": 69.3798828125,
+											"width": 64.32080078125,
 											"height": 13,
-											"text": "xoaQuocgia"
+											"text": "xoaKhuvuc"
 										},
 										{
 											"_type": "LabelView",
@@ -140,7 +140,7 @@
 													"top": 47,
 													"width": 132.3544921875,
 													"height": 13,
-													"text": "q1: QuanlyQuocGia"
+													"text": "q2: QuanlyKhuVuc"
 												},
 												{
 													"_type": "LabelView",
@@ -263,7 +263,7 @@
 													"top": 211,
 													"width": 111,
 													"height": 13,
-													"text": "qg: QuocGia"
+													"text": "kv: KhuVuc"
 												},
 												{
 													"_type": "LabelView",
@@ -496,7 +496,7 @@
 												"$ref": "AAAAAAGTi9hVNHcDUG8="
 											},
 											"edgePosition": 1,
-											"text": "xoaQuocgia()"
+											"text": "xoaKhuvuc()"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -1559,7 +1559,7 @@
 													"top": 131,
 													"width": 226.998046875,
 													"height": 13,
-													"text": "dsQuocGia: ArrayList<QuocGia>()"
+													"text": "dsKhuVuc:ArrayList<KhuVuc>()"
 												},
 												{
 													"_type": "LabelView",
@@ -2123,7 +2123,7 @@
 												"$ref": "AAAAAAGThZ5l8WlSJXc="
 											},
 											"edgePosition": 1,
-											"text": "7 : setMaQuocgia(sc.nextInt())"
+											"text": "7 : setMaKhuvuc(sc.nextInt())"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -2239,7 +2239,7 @@
 												"$ref": "AAAAAAGTi88aq3WK6qg="
 											},
 											"edgePosition": 1,
-											"text": "8 : getMaQuocgia()"
+											"text": "8 : getMaKhuvuc()"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -2355,7 +2355,7 @@
 												"$ref": "AAAAAAGTi891m3Wh6PE="
 											},
 											"edgePosition": 1,
-											"text": "9 : getMaQuocgia()"
+											"text": "9 : getMaKhuvuc()"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -2471,7 +2471,7 @@
 												"$ref": "AAAAAAGTpojf4wfvIWc="
 											},
 											"edgePosition": 1,
-											"text": "10 : qg = quociga"
+											"text": "10 : kv = khuvuc"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -2819,7 +2819,7 @@
 												"$ref": "AAAAAAGThnAUP7kcZvU="
 											},
 											"edgePosition": 1,
-											"text": "13 : remove(qg)"
+											"text": "13 : remove(kv)"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -2935,7 +2935,7 @@
 												"$ref": "AAAAAAGThnCwQLk1eQo="
 											},
 											"edgePosition": 1,
-											"text": "14 : out.format(\"Da xoa thanh cong\\n\");"
+											"text": "14 : out.format(\"Xoa thanh cong\")"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -3296,7 +3296,7 @@
 												"$ref": "AAAAAAGThnoeQbpZ92Y="
 											},
 											"edgePosition": 1,
-											"text": "15 : inQuocgia()"
+											"text": "15 : inKhuvuc()"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -3402,17 +3402,17 @@
 											},
 											"font": "Arial;13;0",
 											"parentStyle": false,
-											"left": 480,
-											"top": 1143,
+											"left": 481,
+											"top": 1144,
 											"width": 514.76953125,
 											"height": 13,
-											"alpha": -4.612721317992635,
-											"distance": 10.04987562112089,
+											"alpha": 1.5707963267948966,
+											"distance": 10,
 											"hostEdge": {
 												"$ref": "AAAAAAGTi9pmTHcrN7o="
 											},
 											"edgePosition": 1,
-											"text": "15.1 : out.format(\"%-20s%-20s%-20s\\n\", \"Quoc gia\", \"Ma quoc gia\", \"Thong Tin\")"
+											"text": "15.1 : .out.format(\"%-20s%-20s%-20s\\n\", \"Khu Vuc\", \"Ma Khu Vuc\", \"Thong Tin\")"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -3760,7 +3760,7 @@
 												"$ref": "AAAAAAGTi+E0FXea0cA="
 											},
 											"edgePosition": 1,
-											"text": "15.2.2 : out.format(qg.toString())"
+											"text": "15.2.2 : out.format(kv.toString())"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -3876,7 +3876,7 @@
 												"$ref": "AAAAAAGThnz9ibqfS8E="
 											},
 											"edgePosition": 1,
-											"text": "16 : out.format(\"Quoc gia khong ton tai\")"
+											"text": "16 : out.format(\"Khu vuc khong ton tai\")"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -3972,7 +3972,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGThY2d4mghp0I="
 							},
-							"name": "xoaQuocgia()",
+							"name": "xoaKhuvuc()",
 							"source": {
 								"$ref": "AAAAAAGTi9hVM3cAnCM="
 							},
@@ -4090,7 +4090,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGThY2d4mghp0I="
 							},
-							"name": "setMaQuocgia(sc.nextInt())",
+							"name": "setMaKhuvuc(sc.nextInt())",
 							"source": {
 								"$ref": "AAAAAAGThZNc2Ggzfuw="
 							},
@@ -4105,7 +4105,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGThY2d4mghp0I="
 							},
-							"name": "getMaQuocgia()",
+							"name": "getMaKhuvuc()",
 							"source": {
 								"$ref": "AAAAAAGThZNc2Ggzfuw="
 							},
@@ -4120,7 +4120,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGThY2d4mghp0I="
 							},
-							"name": "getMaQuocgia()",
+							"name": "getMaKhuvuc()",
 							"source": {
 								"$ref": "AAAAAAGThZNc2Ggzfuw="
 							},
@@ -4135,7 +4135,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGThY2d4mghp0I="
 							},
-							"name": "qg = quociga",
+							"name": "kv = khuvuc",
 							"source": {
 								"$ref": "AAAAAAGThZNc2Ggzfuw="
 							},
@@ -4180,7 +4180,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGThY2d4mghp0I="
 							},
-							"name": "remove(qg)",
+							"name": "remove(kv)",
 							"source": {
 								"$ref": "AAAAAAGThZNc2Ggzfuw="
 							},
@@ -4195,7 +4195,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGThY2d4mghp0I="
 							},
-							"name": "out.format(\"Da xoa thanh cong\\n\");",
+							"name": "out.format(\"Xoa thanh cong\")",
 							"source": {
 								"$ref": "AAAAAAGThZNc2Ggzfuw="
 							},
@@ -4210,7 +4210,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGThY2d4mghp0I="
 							},
-							"name": "inQuocgia()",
+							"name": "inKhuvuc()",
 							"source": {
 								"$ref": "AAAAAAGThZNc2Ggzfuw="
 							},
@@ -4225,7 +4225,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGThY2d4mghp0I="
 							},
-							"name": "out.format(\"%-20s%-20s%-20s\\n\", \"Quoc gia\", \"Ma quoc gia\", \"Thong Tin\")",
+							"name": ".out.format(\"%-20s%-20s%-20s\\n\", \"Khu Vuc\", \"Ma Khu Vuc\", \"Thong Tin\")",
 							"source": {
 								"$ref": "AAAAAAGThZNc2Ggzfuw="
 							},
@@ -4269,7 +4269,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGThY2d4mghp0I="
 							},
-							"name": "out.format(qg.toString())",
+							"name": "out.format(kv.toString())",
 							"source": {
 								"$ref": "AAAAAAGThZNc2Ggzfuw="
 							},
@@ -4284,7 +4284,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGThY2d4mghp0I="
 							},
-							"name": "out.format(\"Quoc gia khong ton tai\")",
+							"name": "out.format(\"Khu vuc khong ton tai\")",
 							"source": {
 								"$ref": "AAAAAAGThZNc2Ggzfuw="
 							},
@@ -4301,7 +4301,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGThY2d4mghp0I="
 							},
-							"name": "q1: QuanlyQuocGia",
+							"name": "q2: QuanlyKhuVuc",
 							"represent": {
 								"$ref": "AAAAAAGThZNc2GgyJ44="
 							},
@@ -4313,7 +4313,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGThY2d4mghp0I="
 							},
-							"name": "qg: QuocGia",
+							"name": "kv: KhuVuc",
 							"represent": {
 								"$ref": "AAAAAAGThZbjeWhwNdc="
 							},
@@ -4350,7 +4350,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGThY2d4mghp0I="
 							},
-							"name": "dsQuocGia: ArrayList<QuocGia>()",
+							"name": "dsKhuVuc:ArrayList<KhuVuc>()",
 							"represent": {
 								"$ref": "AAAAAAGThaEC4mmZliQ="
 							},
@@ -4782,9 +4782,9 @@
 											},
 											"font": "Arial;13;0",
 											"parentStyle": true,
-											"left": 112.72998046875,
+											"left": 110.55908203125,
 											"top": 5,
-											"width": 69.3798828125,
+											"width": 62.81005859375,
 											"height": 13,
 											"text": "xoaQuocgia"
 										},
@@ -4798,7 +4798,7 @@
 											"parentStyle": true,
 											"left": 93,
 											"top": 5,
-											"width": 13.72998046875,
+											"width": 11.55908203125,
 											"height": 13,
 											"text": "sd"
 										}

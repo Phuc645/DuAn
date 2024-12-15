@@ -4261,7 +4261,7 @@
 												"$ref": "AAAAAAGTi9pmTHcrN7o="
 											},
 											"edgePosition": 1,
-											"text": "19.1 : System.out.format(\"%-20s%-20s%-20s\\n\", \"Quoc gia\", \"Ma quoc gia\", \"Thong Tin\")"
+											"text": "19.1 : out.format(\"%-20s%-20s%-20s\\n\", \"Quoc gia\", \"Ma quoc gia\", \"Thong Tin\")"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -5180,7 +5180,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGThY2d4mghp0I="
 							},
-							"name": "System.out.format(\"%-20s%-20s%-20s\\n\", \"Quoc gia\", \"Ma quoc gia\", \"Thong Tin\")",
+							"name": "out.format(\"%-20s%-20s%-20s\\n\", \"Quoc gia\", \"Ma quoc gia\", \"Thong Tin\")",
 							"source": {
 								"$ref": "AAAAAAGThZNc2Ggzfuw="
 							},

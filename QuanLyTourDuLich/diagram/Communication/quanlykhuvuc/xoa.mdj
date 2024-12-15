@@ -64,9 +64,9 @@
 											},
 											"font": "Arial;13;0",
 											"parentStyle": true,
-											"left": 24.72998046875,
+											"left": 22.55908203125,
 											"top": 5,
-											"width": 69.3798828125,
+											"width": 62.81005859375,
 											"height": 13,
 											"text": "xoaQuocgia"
 										},
@@ -80,7 +80,7 @@
 											"parentStyle": true,
 											"left": 5,
 											"top": 5,
-											"width": 13.72998046875,
+											"width": 11.55908203125,
 											"height": 13,
 											"text": "sd"
 										}
@@ -496,7 +496,7 @@
 												"$ref": "AAAAAAGTi9hVNHcDUG8="
 											},
 											"edgePosition": 1,
-											"text": "xoaQuocgia()"
+											"text": "capNhatQuocgia()"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -1426,9 +1426,9 @@
 											},
 											"font": "Arial;13;0",
 											"parentStyle": true,
-											"left": 67.578125,
+											"left": 66.11181640625,
 											"top": 517,
-											"width": 130.0634765625,
+											"width": 118.4091796875,
 											"height": 13,
 											"text": "(quocgia : dsQuocGia)"
 										},
@@ -1442,7 +1442,7 @@
 											"parentStyle": true,
 											"left": 37,
 											"top": 517,
-											"width": 24.578125,
+											"width": 23.11181640625,
 											"height": 13,
 											"text": "loop"
 										},
@@ -1656,9 +1656,9 @@
 											},
 											"font": "Arial;13;0",
 											"parentStyle": true,
-											"left": 104.72998046875,
+											"left": 103.99365234375,
 											"top": 637,
-											"width": 284.705078125,
+											"width": 262.29150390625,
 											"height": 13,
 											"text": "(quocgia.getMaQuocgia() == qg.getMaQuocgia())"
 										},
@@ -1672,7 +1672,7 @@
 											"parentStyle": true,
 											"left": 85,
 											"top": 637,
-											"width": 13.72998046875,
+											"width": 12.99365234375,
 											"height": 13,
 											"text": "alt"
 										},
@@ -1886,9 +1886,9 @@
 											},
 											"font": "Arial;13;0",
 											"parentStyle": true,
-											"left": 48.72998046875,
+											"left": 47.99365234375,
 											"top": 909,
-											"width": 59.96630859375,
+											"width": 55.80224609375,
 											"height": 13,
 											"text": "(c == true)"
 										},
@@ -1902,7 +1902,7 @@
 											"parentStyle": true,
 											"left": 29,
 											"top": 909,
-											"width": 13.72998046875,
+											"width": 12.99365234375,
 											"height": 13,
 											"text": "alt"
 										},
@@ -3176,9 +3176,9 @@
 											},
 											"font": "Arial;13;0",
 											"parentStyle": true,
-											"left": 131.578125,
+											"left": 130.11181640625,
 											"top": 1205,
-											"width": 90.3271484375,
+											"width": 81.59912109375,
 											"height": 13,
 											"text": "qg : dsQuocGia"
 										},
@@ -3192,7 +3192,7 @@
 											"parentStyle": true,
 											"left": 101,
 											"top": 1205,
-											"width": 24.578125,
+											"width": 23.11181640625,
 											"height": 13,
 											"text": "loop"
 										},
@@ -3402,17 +3402,17 @@
 											},
 											"font": "Arial;13;0",
 											"parentStyle": false,
-											"left": 480,
-											"top": 1143,
+											"left": 481,
+											"top": 1144,
 											"width": 514.76953125,
 											"height": 13,
-											"alpha": -4.612721317992635,
-											"distance": 10.04987562112089,
+											"alpha": 1.5707963267948966,
+											"distance": 10,
 											"hostEdge": {
 												"$ref": "AAAAAAGTi9pmTHcrN7o="
 											},
 											"edgePosition": 1,
-											"text": "15.1 : out.format(\"%-20s%-20s%-20s\\n\", \"Quoc gia\", \"Ma quoc gia\", \"Thong Tin\")"
+											"text": "15.1 : System.out.format(\"%-20s%-20s%-20s\\n\", \"Quoc gia\", \"Ma quoc gia\", \"Thong Tin\")"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -3972,7 +3972,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGThY2d4mghp0I="
 							},
-							"name": "xoaQuocgia()",
+							"name": "capNhatQuocgia()",
 							"source": {
 								"$ref": "AAAAAAGTi9hVM3cAnCM="
 							},
@@ -4225,7 +4225,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGThY2d4mghp0I="
 							},
-							"name": "out.format(\"%-20s%-20s%-20s\\n\", \"Quoc gia\", \"Ma quoc gia\", \"Thong Tin\")",
+							"name": "System.out.format(\"%-20s%-20s%-20s\\n\", \"Quoc gia\", \"Ma quoc gia\", \"Thong Tin\")",
 							"source": {
 								"$ref": "AAAAAAGThZNc2Ggzfuw="
 							},
