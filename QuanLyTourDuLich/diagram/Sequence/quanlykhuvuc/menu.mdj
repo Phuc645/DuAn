@@ -262,7 +262,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGTXEZ5BREeLzQ="
 							},
-							"name": "QuanlyQuocGia",
+							"name": "Test2",
 							"ownedViews": [
 								{
 									"_type": "UMLFrameView",
@@ -284,9 +284,9 @@
 											"parentStyle": true,
 											"left": 24.72998046875,
 											"top": 5,
-											"width": 92.49169921875,
+											"width": 31.07177734375,
 											"height": 13,
-											"text": "QuanlyQuocGia"
+											"text": "Test2"
 										},
 										{
 											"_type": "LabelView",
@@ -343,7 +343,7 @@
 													"visible": false,
 													"font": "Arial;13;0",
 													"parentStyle": true,
-													"left": -106,
+													"left": -122,
 													"height": 13
 												},
 												{
@@ -354,7 +354,7 @@
 													},
 													"font": "Arial;13;1",
 													"parentStyle": true,
-													"left": 77,
+													"left": 69,
 													"top": 87,
 													"width": 102.1181640625,
 													"height": 13,
@@ -369,7 +369,7 @@
 													"visible": false,
 													"font": "Arial;13;0",
 													"parentStyle": true,
-													"left": -106,
+													"left": -122,
 													"width": 106.20263671875,
 													"height": 13,
 													"text": "(from Interaction1)"
@@ -383,14 +383,14 @@
 													"visible": false,
 													"font": "Arial;13;0",
 													"parentStyle": true,
-													"left": -106,
+													"left": -122,
 													"height": 13,
 													"horizontalAlignment": 1
 												}
 											],
 											"font": "Arial;13;0",
 											"parentStyle": true,
-											"left": 72,
+											"left": 64,
 											"top": 80,
 											"width": 112.1181640625,
 											"height": 25,
@@ -418,7 +418,7 @@
 											},
 											"font": "Arial;13;0",
 											"parentStyle": false,
-											"left": 128,
+											"left": 120,
 											"top": 106,
 											"width": 1,
 											"height": 1326
@@ -426,7 +426,7 @@
 									],
 									"font": "Arial;13;0",
 									"parentStyle": false,
-									"left": 72,
+									"left": 64,
 									"top": 40,
 									"width": 111.1181640625,
 									"height": 1392,
@@ -484,7 +484,7 @@
 													"top": 60,
 													"width": 159,
 													"height": 13,
-													"text": ":Test"
+													"text": ":Test2"
 												},
 												{
 													"_type": "LabelView",
@@ -584,7 +584,7 @@
 											},
 											"font": "Arial;13;0",
 											"parentStyle": false,
-											"left": 183,
+											"left": 179,
 											"top": 128,
 											"width": 128.59716796875,
 											"height": 13,
@@ -608,7 +608,7 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"parentStyle": false,
-											"left": 247,
+											"left": 243,
 											"top": 113,
 											"height": 13,
 											"alpha": 1.5707963267948966,
@@ -630,7 +630,7 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"parentStyle": false,
-											"left": 247,
+											"left": 243,
 											"top": 148,
 											"height": 13,
 											"alpha": -1.5707963267948966,
@@ -665,7 +665,7 @@
 									"tail": {
 										"$ref": "AAAAAAGTXEdD1BE5Oi0="
 									},
-									"points": "129:144;365:144",
+									"points": "121:144;365:144",
 									"nameLabel": {
 										"$ref": "AAAAAAGTXErmxBF6rn0="
 									},
@@ -962,7 +962,7 @@
 													"top": 321,
 													"width": 132.3544921875,
 													"height": 13,
-													"text": "q1: QuanlyQuocGia"
+													"text": "q2: QuanlyKhuVuc"
 												},
 												{
 													"_type": "LabelView",
@@ -1433,7 +1433,7 @@
 												"$ref": "AAAAAAGTXGAE3BQuAm0="
 											},
 											"edgePosition": 1,
-											"text": "1.4 : out.format(\"1. Them quoc gia\\n\")"
+											"text": "1.4 : out.format(\"1. Them khu vuc\\n\")"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -1549,7 +1549,7 @@
 												"$ref": "AAAAAAGTXGCRrBRFE6U="
 											},
 											"edgePosition": 1,
-											"text": "1.5 : out.format(\"2. Cap nhat thong tin quoc gia\\n\")"
+											"text": "1.5 : out.format(\"2. Cap nhat khu vuc\\n\")"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -1665,7 +1665,7 @@
 												"$ref": "AAAAAAGTXGEJtBRbUt4="
 											},
 											"edgePosition": 1,
-											"text": "1.6 : out.format(\"3. Xoa quoc gia\\n\")"
+											"text": "1.6 : out.format(\"3. Xoa khu vuc\\n\")"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -1781,7 +1781,7 @@
 												"$ref": "AAAAAAGTXGIR9RSTgt8="
 											},
 											"edgePosition": 1,
-											"text": "1.7 : out.format(\"4. Hien danh sach quoc gia\\n\")"
+											"text": "1.7 : out.format(\"4. Hien thi khu vuc\\n\""
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -1897,7 +1897,7 @@
 												"$ref": "AAAAAAGTXGJPlBSpu1U="
 											},
 											"edgePosition": 1,
-											"text": "1.8 : out.format(\"5. Tim kiem quoc gia\\n\")"
+											"text": "1.8 : out.format(\"5. Tim kiem khu vuc\\n\")"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -2013,7 +2013,7 @@
 												"$ref": "AAAAAAGTXGMQ7hS/IuE="
 											},
 											"edgePosition": 1,
-											"text": "1.9 : out.format(\"6. Sap xep quoc gia theo ten\\n\")"
+											"text": "1.9 : out.format(\"6. Sap xep khu vuc theo ten\\n\")"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -2701,7 +2701,7 @@
 												"$ref": "AAAAAAGTXGyT/RZDINU="
 											},
 											"edgePosition": 1,
-											"text": "1.14 : themQuocgia()"
+											"text": "1.14 : themKhuVuc()"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -2994,9 +2994,9 @@
 															"parentStyle": true,
 															"left": 124,
 															"top": 1879,
-															"width": 35.41357421875,
+															"width": 95.39892578125,
 															"height": 13,
-															"text": "[chuh]"
+															"text": "[chucNang == 5]"
 														}
 													],
 													"font": "Arial;13;0",
@@ -3025,12 +3025,13 @@
 															"_parent": {
 																"$ref": "AAAAAAGTxiKAQGoZr5o="
 															},
-															"visible": false,
 															"font": "Arial;13;0",
 															"parentStyle": true,
 															"left": 124,
 															"top": 2175,
-															"height": 13
+															"width": 95.39892578125,
+															"height": 13,
+															"text": "[chucNang == 6]"
 														}
 													],
 													"font": "Arial;13;0",
@@ -3059,12 +3060,13 @@
 															"_parent": {
 																"$ref": "AAAAAAGTxiPNLmpSvRM="
 															},
-															"visible": false,
 															"font": "Arial;13;0",
 															"parentStyle": true,
 															"left": 124,
 															"top": 2391,
-															"height": 13
+															"width": 95.39892578125,
+															"height": 13,
+															"text": "[chucNang == 7]"
 														}
 													],
 													"font": "Arial;13;0",
@@ -3093,12 +3095,13 @@
 															"_parent": {
 																"$ref": "AAAAAAGTxiQILGpfNu8="
 															},
-															"visible": false,
 															"font": "Arial;13;0",
 															"parentStyle": true,
 															"left": 124,
 															"top": 2503,
-															"height": 13
+															"width": 46.25537109375,
+															"height": 13,
+															"text": "[default]"
 														}
 													],
 													"font": "Arial;13;0",
@@ -3190,9 +3193,9 @@
 											"parentStyle": true,
 											"left": 384.72998046875,
 											"top": 1045,
-											"width": 80.20263671875,
+											"width": 73.9501953125,
 											"height": 13,
-											"text": "themQuocGia"
+											"text": "themKhuVuc"
 										},
 										{
 											"_type": "LabelView",
@@ -3253,7 +3256,7 @@
 												"$ref": "AAAAAAGTul1ZrsEkMgk="
 											},
 											"edgePosition": 1,
-											"text": "1.15 : capNhatQuocgia()"
+											"text": "1.15 : capNhatKhuVuc()"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -3358,9 +3361,9 @@
 											"parentStyle": true,
 											"left": 368.72998046875,
 											"top": 1277,
-											"width": 99.7216796875,
+											"width": 93.46923828125,
 											"height": 13,
-											"text": "capNhatQuocGia"
+											"text": "capNhatKhuVuc"
 										},
 										{
 											"_type": "LabelView",
@@ -3421,7 +3424,7 @@
 												"$ref": "AAAAAAGTxJPR8m7m5As="
 											},
 											"edgePosition": 1,
-											"text": "1.16 : xoaQuocgia()"
+											"text": "1.16 : xoaKhuvuc()"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -3526,9 +3529,9 @@
 											"parentStyle": true,
 											"left": 352.72998046875,
 											"top": 1485,
-											"width": 69.3798828125,
+											"width": 64.32080078125,
 											"height": 13,
-											"text": "xoaQuocgia"
+											"text": "xoaKhuvuc"
 										},
 										{
 											"_type": "LabelView",
@@ -3589,7 +3592,7 @@
 												"$ref": "AAAAAAGTxhq+HGmTYQ4="
 											},
 											"edgePosition": 1,
-											"text": "1.17 : inQuocgia()"
+											"text": "1.17 : inKhuvuc()"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -3694,9 +3697,9 @@
 											"parentStyle": true,
 											"left": 336.72998046875,
 											"top": 1693,
-											"width": 58.5380859375,
+											"width": 53.47900390625,
 											"height": 13,
-											"text": "inQuocgia"
+											"text": "inKhuvuc"
 										},
 										{
 											"_type": "LabelView",
@@ -3757,7 +3760,7 @@
 												"$ref": "AAAAAAGTxiF1C2nkx2o="
 											},
 											"edgePosition": 1,
-											"text": "1.18 : timKiemQuocGia()"
+											"text": "1.18 : timKiemKhuVuc()"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -3862,9 +3865,9 @@
 											"parentStyle": true,
 											"left": 320.72998046875,
 											"top": 1941,
-											"width": 98.2490234375,
+											"width": 91.99658203125,
 											"height": 13,
-											"text": "timKiemQuocGia"
+											"text": "timKiemKhuVuc"
 										},
 										{
 											"_type": "LabelView",
@@ -3925,7 +3928,7 @@
 												"$ref": "AAAAAAGTxicVy2qZlkg="
 											},
 											"edgePosition": 1,
-											"text": "1.19 : sapXepQuocGiaTheoTen()"
+											"text": "1.19 : sapXepKhuVucTheoTen()"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -4041,7 +4044,7 @@
 												"$ref": "AAAAAAGTxiLsg2oiLkU="
 											},
 											"edgePosition": 1,
-											"text": "1.19 : out.format(\"Thoat chuong trinh\")"
+											"text": "1.20 : out.format(\"Thoat chuong trinh\")"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -4157,7 +4160,7 @@
 												"$ref": "AAAAAAGTxiNyg2o59ww="
 											},
 											"edgePosition": 1,
-											"text": "1.20 : out.format(\"Sai cu phap\")"
+											"text": "1.21 : out.format(\"Sai cu phap\")"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -4262,9 +4265,9 @@
 											"parentStyle": true,
 											"left": 312.72998046875,
 											"top": 2229,
-											"width": 145.9833984375,
+											"width": 139.73095703125,
 											"height": 13,
-											"text": "sapXepQuocGiaTheoTen"
+											"text": "sapXepKhuVucTheoTen"
 										},
 										{
 											"_type": "LabelView",
@@ -4365,7 +4368,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGTXEZ5BREeLzQ="
 							},
-							"name": "out.format(\"1. Them quoc gia\\n\")",
+							"name": "out.format(\"1. Them khu vuc\\n\")",
 							"source": {
 								"$ref": "AAAAAAGTXEf2exFUZHE="
 							},
@@ -4380,7 +4383,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGTXEZ5BREeLzQ="
 							},
-							"name": "out.format(\"2. Cap nhat thong tin quoc gia\\n\")",
+							"name": "out.format(\"2. Cap nhat khu vuc\\n\")",
 							"source": {
 								"$ref": "AAAAAAGTXEf2exFUZHE="
 							},
@@ -4395,7 +4398,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGTXEZ5BREeLzQ="
 							},
-							"name": "out.format(\"3. Xoa quoc gia\\n\")",
+							"name": "out.format(\"3. Xoa khu vuc\\n\")",
 							"source": {
 								"$ref": "AAAAAAGTXEf2exFUZHE="
 							},
@@ -4410,7 +4413,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGTXEZ5BREeLzQ="
 							},
-							"name": "out.format(\"4. Hien danh sach quoc gia\\n\")",
+							"name": "out.format(\"4. Hien thi khu vuc\\n\"",
 							"source": {
 								"$ref": "AAAAAAGTXEf2exFUZHE="
 							},
@@ -4425,7 +4428,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGTXEZ5BREeLzQ="
 							},
-							"name": "out.format(\"5. Tim kiem quoc gia\\n\")",
+							"name": "out.format(\"5. Tim kiem khu vuc\\n\")",
 							"source": {
 								"$ref": "AAAAAAGTXEf2exFUZHE="
 							},
@@ -4440,7 +4443,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGTXEZ5BREeLzQ="
 							},
-							"name": "out.format(\"6. Sap xep quoc gia theo ten\\n\")",
+							"name": "out.format(\"6. Sap xep khu vuc theo ten\\n\")",
 							"source": {
 								"$ref": "AAAAAAGTXEf2exFUZHE="
 							},
@@ -4515,7 +4518,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGTXEZ5BREeLzQ="
 							},
-							"name": "themQuocgia()",
+							"name": "themKhuVuc()",
 							"source": {
 								"$ref": "AAAAAAGTXEf2exFUZHE="
 							},
@@ -4530,7 +4533,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGTXEZ5BREeLzQ="
 							},
-							"name": "capNhatQuocgia()",
+							"name": "capNhatKhuVuc()",
 							"source": {
 								"$ref": "AAAAAAGTXEf2exFUZHE="
 							},
@@ -4545,7 +4548,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGTXEZ5BREeLzQ="
 							},
-							"name": "xoaQuocgia()",
+							"name": "xoaKhuvuc()",
 							"source": {
 								"$ref": "AAAAAAGTXEf2exFUZHE="
 							},
@@ -4560,7 +4563,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGTXEZ5BREeLzQ="
 							},
-							"name": "inQuocgia()",
+							"name": "inKhuvuc()",
 							"source": {
 								"$ref": "AAAAAAGTXEf2exFUZHE="
 							},
@@ -4575,7 +4578,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGTXEZ5BREeLzQ="
 							},
-							"name": "timKiemQuocGia()",
+							"name": "timKiemKhuVuc()",
 							"source": {
 								"$ref": "AAAAAAGTXEf2exFUZHE="
 							},
@@ -4590,7 +4593,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGTXEZ5BREeLzQ="
 							},
-							"name": "sapXepQuocGiaTheoTen()",
+							"name": "sapXepKhuVucTheoTen()",
 							"source": {
 								"$ref": "AAAAAAGTXEf2exFUZHE="
 							},
@@ -4612,7 +4615,7 @@
 							"target": {
 								"$ref": "AAAAAAGTXFrTZBMW0wY="
 							},
-							"sequenceNumber": "1.19"
+							"sequenceNumber": "1.20"
 						},
 						{
 							"_type": "UMLMessage",
@@ -4627,7 +4630,7 @@
 							"target": {
 								"$ref": "AAAAAAGTXFrTZBMW0wY="
 							},
-							"sequenceNumber": "1.20"
+							"sequenceNumber": "1.21"
 						}
 					],
 					"participants": [
@@ -4648,7 +4651,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGTXEZ5BREeLzQ="
 							},
-							"name": ":Test",
+							"name": ":Test2",
 							"stereotype": "metaclass",
 							"represent": {
 								"$ref": "AAAAAAGTXEf2exFTMWo="
@@ -4673,7 +4676,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGTXEZ5BREeLzQ="
 							},
-							"name": "q1: QuanlyQuocGia",
+							"name": "q2: QuanlyKhuVuc",
 							"represent": {
 								"$ref": "AAAAAAGTXFUSRBHocos="
 							},
@@ -4765,7 +4768,7 @@
 										"$ref": "AAAAAAGTivZl6CXMt+w="
 									},
 									"name": "InteractionOperand4",
-									"guard": "chuh"
+									"guard": "chucNang == 5"
 								},
 								{
 									"_type": "UMLInteractionOperand",
@@ -4773,7 +4776,8 @@
 									"_parent": {
 										"$ref": "AAAAAAGTivZl6CXMt+w="
 									},
-									"name": "InteractionOperand5"
+									"name": "InteractionOperand5",
+									"guard": "chucNang == 6"
 								},
 								{
 									"_type": "UMLInteractionOperand",
@@ -4781,7 +4785,8 @@
 									"_parent": {
 										"$ref": "AAAAAAGTivZl6CXMt+w="
 									},
-									"name": "InteractionOperand6"
+									"name": "InteractionOperand6",
+									"guard": "chucNang == 7"
 								},
 								{
 									"_type": "UMLInteractionOperand",
@@ -4789,7 +4794,8 @@
 									"_parent": {
 										"$ref": "AAAAAAGTivZl6CXMt+w="
 									},
-									"name": "InteractionOperand7"
+									"name": "InteractionOperand7",
+									"guard": "default"
 								},
 								{
 									"_type": "UMLInteractionOperand",
@@ -4896,9 +4902,9 @@
 											},
 											"font": "Arial;13;0",
 											"parentStyle": true,
-											"left": 118.55908203125,
+											"left": 120.72998046875,
 											"top": 13,
-											"width": 85.1982421875,
+											"width": 92.49169921875,
 											"height": 13,
 											"text": "QuanlyQuocGia"
 										},
@@ -4912,7 +4918,7 @@
 											"parentStyle": true,
 											"left": 101,
 											"top": 13,
-											"width": 11.55908203125,
+											"width": 13.72998046875,
 											"height": 13,
 											"text": "sd"
 										}
@@ -5090,7 +5096,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGTulibjU9z9gA="
 							},
-							"name": "themQuocGia",
+							"name": "themKhuVuc",
 							"ownedViews": [
 								{
 									"_type": "UMLFrameView",
@@ -5110,11 +5116,11 @@
 											},
 											"font": "Arial;13;0",
 											"parentStyle": true,
-											"left": 22.55908203125,
+											"left": 24.72998046875,
 											"top": 5,
-											"width": 72.921875,
+											"width": 73.9501953125,
 											"height": 13,
-											"text": "themQuocGia"
+											"text": "themKhuVuc"
 										},
 										{
 											"_type": "LabelView",
@@ -5126,7 +5132,7 @@
 											"parentStyle": true,
 											"left": 5,
 											"top": 5,
-											"width": 11.55908203125,
+											"width": 13.72998046875,
 											"height": 13,
 											"text": "sd"
 										}
@@ -5170,7 +5176,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGTul4c1ME81sw="
 							},
-							"name": "capNhatQuocGia",
+							"name": "capNhatKhuVuc",
 							"ownedViews": [
 								{
 									"_type": "UMLFrameView",
@@ -5252,7 +5258,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGTxJRJam79qIY="
 							},
-							"name": "xoaQuocgia",
+							"name": "xoaKhuvuc",
 							"ownedViews": [
 								{
 									"_type": "UMLFrameView",
@@ -5334,7 +5340,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGTxhsd9Wmqdp8="
 							},
-							"name": "inQuocgia",
+							"name": "inKhuvuc",
 							"ownedViews": [
 								{
 									"_type": "UMLFrameView",
@@ -5416,7 +5422,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGTxiIGNGn9Dfk="
 							},
-							"name": "timKiemQuocGia",
+							"name": "timKiemKhuVuc",
 							"ownedViews": [
 								{
 									"_type": "UMLFrameView",
@@ -5498,7 +5504,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGTxih2FGq2rEc="
 							},
-							"name": "sapXepQuocGiaTheoTen",
+							"name": "sapXepKhuVucTheoTen",
 							"ownedViews": [
 								{
 									"_type": "UMLFrameView",

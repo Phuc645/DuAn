@@ -26,6 +26,7 @@ public class QuanlyDiadiem {
         dd.setThongTinDiaDiem(sc.nextLine());
         dsDiaDiem.add(dd);
         System.out.format("Them dia diem thanh cong");
+        inDiadiem();
     }
 
     public void xoaDiadiem() {
@@ -44,6 +45,7 @@ public class QuanlyDiadiem {
         if (c == true) {
             dsDiaDiem.remove(dd);
             System.out.format("Xoa thanh cong");
+            inDiadiem();
         } else {
             System.out.format("Khu vuc khong ton tai");
         }
@@ -80,7 +82,7 @@ public class QuanlyDiadiem {
             int giave = sc0.nextInt();
             dd.setGiaVe(giave);
             System.out.format("Cap nhat thanh cong");
-
+            inDiadiem();
         } else {
             System.out.format("Dia diem khong ton tai");
         }

@@ -1658,9 +1658,9 @@
 											"parentStyle": true,
 											"left": 104.72998046875,
 											"top": 637,
-											"width": 284.705078125,
+											"width": 267.81396484375,
 											"height": 13,
-											"text": "(quocgia.getMaQuocgia() == qg.getMaQuocgia())"
+											"text": "(khuvuc.getMaKhuvuc() == kv.getMaKhuvuc())"
 										},
 										{
 											"_type": "LabelView",
@@ -5367,7 +5367,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGThY2d4mghp0I="
 							},
-							"name": "(quocgia.getMaQuocgia() == qg.getMaQuocgia())",
+							"name": "(khuvuc.getMaKhuvuc() == kv.getMaKhuvuc())",
 							"interactionOperator": "alt",
 							"operands": [
 								{

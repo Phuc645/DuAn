@@ -1428,9 +1428,9 @@
 											"parentStyle": true,
 											"left": 67.578125,
 											"top": 517,
-											"width": 130.0634765625,
+											"width": 119.462890625,
 											"height": 13,
-											"text": "(quocgia : dsQuocGia)"
+											"text": "(khuvuc : dsKhuVuc)"
 										},
 										{
 											"_type": "LabelView",
@@ -1658,9 +1658,9 @@
 											"parentStyle": true,
 											"left": 104.72998046875,
 											"top": 637,
-											"width": 284.705078125,
+											"width": 267.81396484375,
 											"height": 13,
-											"text": "(quocgia.getMaQuocgia() == qg.getMaQuocgia())"
+											"text": "(khuvuc.getMaKhuvuc() == kv.getMaKhuvuc())"
 										},
 										{
 											"_type": "LabelView",
@@ -1789,7 +1789,7 @@
 													"top": 47,
 													"width": 122.95361328125,
 													"height": 13,
-													"text": "quocgia: QuocGia"
+													"text": "khuvuc: KhuVuc"
 												},
 												{
 													"_type": "LabelView",
@@ -3178,9 +3178,9 @@
 											"parentStyle": true,
 											"left": 131.578125,
 											"top": 1205,
-											"width": 90.3271484375,
+											"width": 82.61474609375,
 											"height": 13,
-											"text": "qg : dsQuocGia"
+											"text": "kv : dsKhuVuc"
 										},
 										{
 											"_type": "LabelView",
@@ -4362,7 +4362,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGThY2d4mghp0I="
 							},
-							"name": "quocgia: QuocGia",
+							"name": "khuvuc: KhuVuc",
 							"represent": {
 								"$ref": "AAAAAAGThas88Won16c="
 							},
@@ -4395,7 +4395,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGThY2d4mghp0I="
 							},
-							"name": "(quocgia : dsQuocGia)",
+							"name": "(khuvuc : dsKhuVuc)",
 							"interactionOperator": "loop",
 							"operands": [
 								{
@@ -4414,7 +4414,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGThY2d4mghp0I="
 							},
-							"name": "(quocgia.getMaQuocgia() == qg.getMaQuocgia())",
+							"name": "(khuvuc.getMaKhuvuc() == kv.getMaKhuvuc())",
 							"interactionOperator": "alt",
 							"operands": [
 								{
@@ -4452,7 +4452,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGThY2d4mghp0I="
 							},
-							"name": "qg : dsQuocGia",
+							"name": "kv : dsKhuVuc",
 							"interactionOperator": "loop",
 							"operands": [
 								{

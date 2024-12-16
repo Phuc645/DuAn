@@ -44,7 +44,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGThpaXQ8mN0p4="
 							},
-							"name": "sapXepQuocGiaTheoTen",
+							"name": "sapXepDiaDiemTheoTen",
 							"ownedViews": [
 								{
 									"_type": "UMLFrameView",
@@ -66,9 +66,9 @@
 											"parentStyle": true,
 											"left": 24.72998046875,
 											"top": 5,
-											"width": 145.9833984375,
+											"width": 144.5234375,
 											"height": 13,
-											"text": "sapXepQuocGiaTheoTen"
+											"text": "sapXepDiaDiemTheoTen"
 										},
 										{
 											"_type": "LabelView",
@@ -140,7 +140,7 @@
 													"top": 47,
 													"width": 191,
 													"height": 13,
-													"text": "q1 : QuanlyQuocGia"
+													"text": "q3 : QuanlyDiadiem"
 												},
 												{
 													"_type": "LabelView",
@@ -388,7 +388,7 @@
 													"top": 171,
 													"width": 237.83349609375,
 													"height": 13,
-													"text": "sortNames: Comparator<QuocGia>()"
+													"text": "sortNames: Comparator<DiaDiem>()"
 												},
 												{
 													"_type": "LabelView",
@@ -511,7 +511,7 @@
 													"top": 47,
 													"width": 183,
 													"height": 13,
-													"text": "q1: QuocGia"
+													"text": "d1: DiaDiem "
 												},
 												{
 													"_type": "LabelView",
@@ -634,7 +634,7 @@
 													"top": 47,
 													"width": 167,
 													"height": 13,
-													"text": "q2: QuocGia"
+													"text": "d2: DiaDiem "
 												},
 												{
 													"_type": "LabelView",
@@ -734,9 +734,9 @@
 											},
 											"font": "Arial;13;0",
 											"parentStyle": false,
-											"left": 109,
+											"left": 107,
 											"top": 88,
-											"width": 154.6416015625,
+											"width": 159.681640625,
 											"height": 13,
 											"alpha": 1.5707963267948966,
 											"distance": 10,
@@ -744,7 +744,7 @@
 												"$ref": "AAAAAAGTiuCX177twIM="
 											},
 											"edgePosition": 1,
-											"text": "sapXepQuocGiaTheoTen()"
+											"text": "sapXepDiaDiemTheoTen()"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -850,7 +850,7 @@
 											},
 											"font": "Arial;13;0",
 											"parentStyle": false,
-											"left": 368,
+											"left": 376,
 											"top": 104,
 											"width": 18.0654296875,
 											"height": 13,
@@ -873,7 +873,7 @@
 											},
 											"font": "Arial;13;0",
 											"parentStyle": false,
-											"left": 375,
+											"left": 383,
 											"top": 104,
 											"width": 50.5908203125,
 											"height": 13,
@@ -897,7 +897,7 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"parentStyle": false,
-											"left": 377,
+											"left": 385,
 											"top": 124,
 											"height": 13,
 											"alpha": -1.5707963267948966,
@@ -919,7 +919,7 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"parentStyle": false,
-											"left": 548,
+											"left": 564,
 											"top": 120,
 											"width": 14,
 											"height": 25
@@ -933,7 +933,7 @@
 									"tail": {
 										"$ref": "AAAAAAGThpq6wcmoQqQ="
 									},
-									"points": "323:120;432:120",
+									"points": "323:120;448:120",
 									"nameLabel": {
 										"$ref": "AAAAAAGThrImwss97Nc="
 									},
@@ -1085,9 +1085,9 @@
 											"parentStyle": true,
 											"left": 88.72998046875,
 											"top": 437,
-											"width": 299.48876953125,
+											"width": 337.7841796875,
 											"height": 13,
-											"text": "(q1.getQuocGia().compareTo(q2.getQuocGia()) > 0)"
+											"text": "( d1.getTenDiadiem().compareTo(d2.getTenDiadiem()) > 0)"
 										},
 										{
 											"_type": "LabelView",
@@ -1167,9 +1167,9 @@
 															"parentStyle": true,
 															"left": 84,
 															"top": 513,
-															"width": 305.64599609375,
+															"width": 352.599609375,
 															"height": 13,
-															"text": "[q1.getQuocGia().compareTo(q2.getQuocGia()) == 0]"
+															"text": "[( d1.getTenDiadiem().compareTo(d2.getTenDiadiem()) == 0)]"
 														}
 													],
 													"font": "Arial;13;0",
@@ -1270,7 +1270,7 @@
 													"visible": false,
 													"font": "Arial;13;0",
 													"parentStyle": true,
-													"left": 64,
+													"left": 96,
 													"height": 13
 												},
 												{
@@ -1281,11 +1281,11 @@
 													},
 													"font": "Arial;13;1",
 													"parentStyle": true,
-													"left": 437,
+													"left": 453,
 													"top": 107,
 													"width": 223.38623046875,
 													"height": 13,
-													"text": "dsQuocGia: ArrayList<QuocGia>()"
+													"text": "dsDiaDiem: ArrayList<DiaDiem>()"
 												},
 												{
 													"_type": "LabelView",
@@ -1296,7 +1296,7 @@
 													"visible": false,
 													"font": "Arial;13;0",
 													"parentStyle": true,
-													"left": 64,
+													"left": 96,
 													"width": 106.20263671875,
 													"height": 13,
 													"text": "(from Interaction1)"
@@ -1310,14 +1310,14 @@
 													"visible": false,
 													"font": "Arial;13;0",
 													"parentStyle": true,
-													"left": 64,
+													"left": 96,
 													"height": 13,
 													"horizontalAlignment": 1
 												}
 											],
 											"font": "Arial;13;0",
 											"parentStyle": true,
-											"left": 432,
+											"left": 448,
 											"top": 100,
 											"width": 233.38623046875,
 											"height": 40,
@@ -1345,7 +1345,7 @@
 											},
 											"font": "Arial;13;0",
 											"parentStyle": false,
-											"left": 548,
+											"left": 564,
 											"top": 141,
 											"width": 1,
 											"height": 159
@@ -1353,7 +1353,7 @@
 									],
 									"font": "Arial;13;0",
 									"parentStyle": false,
-									"left": 432,
+									"left": 448,
 									"top": 100,
 									"width": 232.38623046875,
 									"height": 200,
@@ -1470,14 +1470,14 @@
 											"left": 56,
 											"top": 106,
 											"width": 1,
-											"height": 33
+											"height": 998
 										}
 									],
 									"font": "Arial;13;0",
 									"parentStyle": false,
 									"top": 40,
 									"width": 111.1181640625,
-									"height": 99,
+									"height": 1064,
 									"stereotypeDisplay": "icon",
 									"nameCompartment": {
 										"$ref": "AAAAAAGTiuBNfr7JZOQ="
@@ -1533,7 +1533,7 @@
 												"$ref": "AAAAAAGTiuJ0X78Wn70="
 											},
 											"edgePosition": 1,
-											"text": "3 : compare(QuocGia q1, QuocGia q2)"
+											"text": "3 : compare(DiaDiem d1, DiaDiem d2)"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -1639,9 +1639,9 @@
 											},
 											"font": "Arial;13;0",
 											"parentStyle": false,
-											"left": 647,
+											"left": 639,
 											"top": 288,
-											"width": 96.09716796875,
+											"width": 113.43896484375,
 											"height": 13,
 											"alpha": 1.5707963267948966,
 											"distance": 10,
@@ -1649,7 +1649,7 @@
 												"$ref": "AAAAAAGTiuSgH7/FuBo="
 											},
 											"edgePosition": 1,
-											"text": "4 : getQuocGia()"
+											"text": "4 : getTenDiadiem()"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -1871,9 +1871,9 @@
 											},
 											"font": "Arial;13;0",
 											"parentStyle": false,
-											"left": 539,
+											"left": 531,
 											"top": 362,
-											"width": 96.09716796875,
+											"width": 113.43896484375,
 											"height": 13,
 											"alpha": 1.5707963267948966,
 											"distance": 10,
@@ -1881,7 +1881,7 @@
 												"$ref": "AAAAAAGTiuXmGL/5fg8="
 											},
 											"edgePosition": 1,
-											"text": "5 : getQuocGia()"
+											"text": "5 : getTenDiadiem()"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -2464,7 +2464,7 @@
 												"$ref": "AAAAAAGThrnIA8vv9NI="
 											},
 											"edgePosition": 1,
-											"text": "9 : sort(dsQuocGia, sortNames)"
+											"text": "9 : sort(dsDiaDiem, sortNames)"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -2705,7 +2705,7 @@
 												"$ref": "AAAAAAGThroBaswFRVs="
 											},
 											"edgePosition": 1,
-											"text": "10 : inQuocgia()"
+											"text": "10 : inDiadiem()"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -2810,9 +2810,9 @@
 											"parentStyle": true,
 											"left": 323.578125,
 											"top": 869,
-											"width": 90.3271484375,
+											"width": 88.8671875,
 											"height": 13,
-											"text": "qg : dsQuocGia"
+											"text": "dd : dsDiaDiem"
 										},
 										{
 											"_type": "LabelView",
@@ -2918,9 +2918,9 @@
 											},
 											"font": "Arial;13;0",
 											"parentStyle": false,
-											"left": 807,
+											"left": 656,
 											"top": 800,
-											"width": 464.19775390625,
+											"width": 766.43505859375,
 											"height": 13,
 											"alpha": 1.5707963267948966,
 											"distance": 10,
@@ -2928,7 +2928,7 @@
 												"$ref": "AAAAAAGTiusPt8Dgp9g="
 											},
 											"edgePosition": 1,
-											"text": "10.1 : out.format(\"%-20s%-20s%-20s\\n\", \"Quoc gia\", \"Ma quoc gia\", \"Thong Tin\")"
+											"text": "10.1 : out.format(\"%-20s%-20s%-20s%-20s%-20s%-20s\\n\", \"Ma dia diem\", \"Dia diem\", \"Mo Cua\", \"Dong Cua\", \"Gia Ve\", \"Thong Tin\")"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -3034,7 +3034,7 @@
 											},
 											"font": "Arial;13;0",
 											"parentStyle": false,
-											"left": 745,
+											"left": 741,
 											"top": 904,
 											"width": 100.43896484375,
 											"height": 13,
@@ -3058,7 +3058,7 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"parentStyle": false,
-											"left": 795,
+											"left": 791,
 											"top": 889,
 											"height": 13,
 											"alpha": 1.5707963267948966,
@@ -3080,7 +3080,7 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"parentStyle": false,
-											"left": 795,
+											"left": 791,
 											"top": 924,
 											"height": 13,
 											"alpha": -1.5707963267948966,
@@ -3101,7 +3101,7 @@
 											},
 											"font": "Arial;13;0",
 											"parentStyle": false,
-											"left": 1273,
+											"left": 1265,
 											"top": 920,
 											"width": 14,
 											"height": 28
@@ -3115,7 +3115,7 @@
 									"tail": {
 										"$ref": "AAAAAAGThpq6wcmoQqQ="
 									},
-									"points": "317:920;1273:920",
+									"points": "317:920;1265:920",
 									"nameLabel": {
 										"$ref": "AAAAAAGTiu03uMFEetg="
 									},
@@ -3151,7 +3151,7 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"parentStyle": false,
-											"left": 797,
+											"left": 793,
 											"top": 972,
 											"height": 13,
 											"alpha": 1.5707963267948966,
@@ -3173,7 +3173,7 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"parentStyle": false,
-											"left": 797,
+											"left": 793,
 											"top": 987,
 											"height": 13,
 											"alpha": 1.5707963267948966,
@@ -3195,7 +3195,7 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"parentStyle": false,
-											"left": 798,
+											"left": 794,
 											"top": 952,
 											"height": 13,
 											"alpha": -1.5707963267948966,
@@ -3231,7 +3231,7 @@
 									"tail": {
 										"$ref": "AAAAAAGTi8ADxA1tBXg="
 									},
-									"points": "1280:968;317:968",
+									"points": "1272:968;317:968",
 									"nameLabel": {
 										"$ref": "AAAAAAGTiu29YMFdJdg="
 									},
@@ -3276,7 +3276,7 @@
 												"$ref": "AAAAAAGTiuwt8METBPY="
 											},
 											"edgePosition": 1,
-											"text": "10.2.2 : out.format(qg.toString())"
+											"text": "10.2.2 : out.format(dd.toString())"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -3390,7 +3390,7 @@
 													"visible": false,
 													"font": "Arial;13;0",
 													"parentStyle": true,
-													"left": 352,
+													"left": 336,
 													"height": 13
 												},
 												{
@@ -3401,11 +3401,11 @@
 													},
 													"font": "Arial;13;1",
 													"parentStyle": true,
-													"left": 1213,
+													"left": 1205,
 													"top": 47,
 													"width": 135,
 													"height": 13,
-													"text": "qg: QuocGia"
+													"text": "dd: DiaDiem "
 												},
 												{
 													"_type": "LabelView",
@@ -3416,7 +3416,7 @@
 													"visible": false,
 													"font": "Arial;13;0",
 													"parentStyle": true,
-													"left": 352,
+													"left": 336,
 													"width": 106.20263671875,
 													"height": 13,
 													"text": "(from Interaction1)"
@@ -3430,14 +3430,14 @@
 													"visible": false,
 													"font": "Arial;13;0",
 													"parentStyle": true,
-													"left": 352,
+													"left": 336,
 													"height": 13,
 													"horizontalAlignment": 1
 												}
 											],
 											"font": "Arial;13;0",
 											"parentStyle": true,
-											"left": 1208,
+											"left": 1200,
 											"top": 40,
 											"width": 145,
 											"height": 40,
@@ -3465,7 +3465,7 @@
 											},
 											"font": "Arial;13;0",
 											"parentStyle": false,
-											"left": 1280,
+											"left": 1272,
 											"top": 81,
 											"width": 1,
 											"height": 975
@@ -3473,7 +3473,7 @@
 									],
 									"font": "Arial;13;0",
 									"parentStyle": false,
-									"left": 1208,
+									"left": 1200,
 									"top": 40,
 									"width": 144,
 									"height": 1016,
@@ -3495,7 +3495,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGThpaXQ8mN0p4="
 							},
-							"name": "sapXepQuocGiaTheoTen()",
+							"name": "sapXepDiaDiemTheoTen()",
 							"source": {
 								"$ref": "AAAAAAGTiuCX177qSf4="
 							},
@@ -3539,7 +3539,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGThpaXQ8mN0p4="
 							},
-							"name": "compare(QuocGia q1, QuocGia q2)",
+							"name": "compare(DiaDiem d1, DiaDiem d2)",
 							"source": {
 								"$ref": "AAAAAAGThpq6wcmhUlQ="
 							},
@@ -3554,7 +3554,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGThpaXQ8mN0p4="
 							},
-							"name": "getQuocGia()",
+							"name": "getTenDiadiem()",
 							"source": {
 								"$ref": "AAAAAAGThpq6wcmhUlQ="
 							},
@@ -3583,7 +3583,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGThpaXQ8mN0p4="
 							},
-							"name": "getQuocGia()",
+							"name": "getTenDiadiem()",
 							"source": {
 								"$ref": "AAAAAAGThpq6wcmhUlQ="
 							},
@@ -3660,7 +3660,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGThpaXQ8mN0p4="
 							},
-							"name": "sort(dsQuocGia, sortNames)",
+							"name": "sort(dsDiaDiem, sortNames)",
 							"source": {
 								"$ref": "AAAAAAGThpq6wcmhUlQ="
 							},
@@ -3675,7 +3675,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGThpaXQ8mN0p4="
 							},
-							"name": "inQuocgia()",
+							"name": "inDiadiem()",
 							"source": {
 								"$ref": "AAAAAAGThpq6wcmhUlQ="
 							},
@@ -3690,7 +3690,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGThpaXQ8mN0p4="
 							},
-							"name": "out.format(\"%-20s%-20s%-20s\\n\", \"Quoc gia\", \"Ma quoc gia\", \"Thong Tin\")",
+							"name": "out.format(\"%-20s%-20s%-20s%-20s%-20s%-20s\\n\", \"Ma dia diem\", \"Dia diem\", \"Mo Cua\", \"Dong Cua\", \"Gia Ve\", \"Thong Tin\")",
 							"source": {
 								"$ref": "AAAAAAGThpq6wcmhUlQ="
 							},
@@ -3734,7 +3734,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGThpaXQ8mN0p4="
 							},
-							"name": "out.format(qg.toString())",
+							"name": "out.format(dd.toString())",
 							"source": {
 								"$ref": "AAAAAAGThpq6wcmhUlQ="
 							},
@@ -3751,7 +3751,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGThpaXQ8mN0p4="
 							},
-							"name": "q1 : QuanlyQuocGia",
+							"name": "q3 : QuanlyDiadiem",
 							"represent": {
 								"$ref": "AAAAAAGThpq6wcmghhs="
 							},
@@ -3776,7 +3776,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGThpaXQ8mN0p4="
 							},
-							"name": "sortNames: Comparator<QuocGia>()",
+							"name": "sortNames: Comparator<DiaDiem>()",
 							"represent": {
 								"$ref": "AAAAAAGThpvhOMnj5o4="
 							},
@@ -3788,7 +3788,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGThpaXQ8mN0p4="
 							},
-							"name": "q1: QuocGia",
+							"name": "d1: DiaDiem ",
 							"represent": {
 								"$ref": "AAAAAAGThp042coNt1A="
 							},
@@ -3800,7 +3800,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGThpaXQ8mN0p4="
 							},
-							"name": "q2: QuocGia",
+							"name": "d2: DiaDiem ",
 							"represent": {
 								"$ref": "AAAAAAGThp376so351k="
 							},
@@ -3812,7 +3812,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGThpaXQ8mN0p4="
 							},
-							"name": "dsQuocGia: ArrayList<QuocGia>()",
+							"name": "dsDiaDiem: ArrayList<DiaDiem>()",
 							"represent": {
 								"$ref": "AAAAAAGThrFsCssSMY8="
 							},
@@ -3856,7 +3856,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGThpaXQ8mN0p4="
 							},
-							"name": "qg: QuocGia",
+							"name": "dd: DiaDiem ",
 							"represent": {
 								"$ref": "AAAAAAGTi8ADxA1l0ns="
 							},
@@ -3870,7 +3870,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGThpaXQ8mN0p4="
 							},
-							"name": "(q1.getQuocGia().compareTo(q2.getQuocGia()) > 0)",
+							"name": "( d1.getTenDiadiem().compareTo(d2.getTenDiadiem()) > 0)",
 							"interactionOperator": "alt",
 							"operands": [
 								{
@@ -3888,7 +3888,7 @@
 										"$ref": "AAAAAAGThqRMwcrp3ok="
 									},
 									"name": "InteractionOperand1",
-									"guard": "q1.getQuocGia().compareTo(q2.getQuocGia()) == 0"
+									"guard": "( d1.getTenDiadiem().compareTo(d2.getTenDiadiem()) == 0)"
 								},
 								{
 									"_type": "UMLInteractionOperand",
@@ -3906,7 +3906,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGThpaXQ8mN0p4="
 							},
-							"name": "qg : dsQuocGia",
+							"name": "dd : dsDiaDiem",
 							"interactionOperator": "loop",
 							"operands": [
 								{
@@ -4254,9 +4254,9 @@
 											},
 											"font": "Arial;13;0",
 											"parentStyle": true,
-											"left": 152.72998046875,
+											"left": 150.55908203125,
 											"top": 5,
-											"width": 145.9833984375,
+											"width": 131.9296875,
 											"height": 13,
 											"text": "sapXepQuocGiaTheoTen"
 										},
@@ -4270,7 +4270,7 @@
 											"parentStyle": true,
 											"left": 133,
 											"top": 5,
-											"width": 13.72998046875,
+											"width": 11.55908203125,
 											"height": 13,
 											"text": "sd"
 										}
