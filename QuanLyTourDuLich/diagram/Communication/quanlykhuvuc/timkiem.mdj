@@ -3886,7 +3886,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGTjQDnSMefLT0="
 							},
-							"name": "capNhatQuocgia",
+							"name": "timKiemKhuVuc",
 							"ownedViews": [
 								{
 									"_type": "UMLFrameView",
@@ -3908,9 +3908,9 @@
 											"parentStyle": true,
 											"left": 120.72998046875,
 											"top": 5,
-											"width": 96.83984375,
+											"width": 91.99658203125,
 											"height": 13,
-											"text": "capNhatQuocgia"
+											"text": "timKiemKhuVuc"
 										},
 										{
 											"_type": "LabelView",
@@ -4090,7 +4090,7 @@
 													"top": 71,
 													"width": 319,
 													"height": 13,
-													"text": "q1:  QuanlyQuocGia"
+													"text": "q3:  QuanlyKhuVuc"
 												},
 												{
 													"_type": "LabelView",
@@ -4425,7 +4425,7 @@
 											"height": 13,
 											"alpha": 1.5707963267948966,
 											"distance": 10,
-											"text": "timKiemQuocgia()"
+											"text": "timKiemKhuVuc()"
 										},
 										{
 											"_type": "NodeLabelView",
@@ -4528,9 +4528,9 @@
 													"parentStyle": true,
 													"left": 1069,
 													"top": 159,
-													"width": 204.72802734375,
+													"width": 205.90234375,
 													"height": 13,
-													"text": "dsQuocGia: ArrayLIst<QuocGia>"
+													"text": "dsKhuVuc : ArrayList<KhuVuc>()"
 												},
 												{
 													"_type": "LabelView",
@@ -4566,7 +4566,7 @@
 											"parentStyle": true,
 											"left": 1064,
 											"top": 152,
-											"width": 214.72802734375,
+											"width": 215.90234375,
 											"height": 25,
 											"stereotypeLabel": {
 												"$ref": "AAAAAAGTjQMJL8n4ff0="
@@ -4586,7 +4586,7 @@
 									"parentStyle": false,
 									"left": 1064,
 									"top": 152,
-									"width": 213.72802734375,
+									"width": 214.90234375,
 									"height": 56,
 									"nameCompartment": {
 										"$ref": "AAAAAAGTjQMJL8n3Hls="
@@ -4971,7 +4971,7 @@
 													"top": 439,
 													"width": 143,
 													"height": 13,
-													"text": "qg: QuocGia"
+													"text": "kv:  KhuVuc"
 												},
 												{
 													"_type": "LabelView",
@@ -6074,12 +6074,12 @@
 											},
 											"font": "Arial;13;0",
 											"parentStyle": false,
-											"left": 351.977783203125,
-											"top": 22.5,
+											"left": 327.977783203125,
+											"top": 7.5,
 											"width": 78.04443359375,
 											"height": 13,
-											"alpha": 0.10379231898860584,
-											"distance": 48.25971404805462,
+											"alpha": 0.6947380712787208,
+											"distance": 31.240998703626616,
 											"text": "2 : c = false"
 										},
 										{
@@ -7189,7 +7189,7 @@
 											"height": 13,
 											"alpha": 0.7853979848260516,
 											"distance": 39.59797974644666,
-											"text": "7 : setMaQuocgia(sc.nextInt())"
+											"text": "7 : setMaKhuvuc(sc.nextInt())"
 										},
 										{
 											"_type": "NodeLabelView",
@@ -7295,7 +7295,7 @@
 													"top": 447,
 													"width": 135,
 													"height": 13,
-													"text": "quocgia: QuocGia"
+													"text": "khuvuc: KhuVuc"
 												},
 												{
 													"_type": "LabelView",
@@ -7779,7 +7779,7 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"parentStyle": false,
-											"left": 1208,
+											"left": 1209,
 											"top": 219,
 											"height": 13,
 											"alpha": 0.5235987755982988,
@@ -7801,7 +7801,7 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"parentStyle": false,
-											"left": 1221,
+											"left": 1222,
 											"top": 216,
 											"height": 13,
 											"alpha": 0.7853981633974483,
@@ -7823,7 +7823,7 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"parentStyle": false,
-											"left": 1182,
+											"left": 1183,
 											"top": 227,
 											"height": 13,
 											"alpha": -0.5235987755982988,
@@ -7888,7 +7888,7 @@
 											"font": "Arial;13;0",
 											"parentStyle": false,
 											"left": 1275,
-											"top": 419,
+											"top": 418,
 											"height": 13,
 											"alpha": 0.5235987755982988,
 											"distance": 25,
@@ -7906,7 +7906,7 @@
 										"$ref": "AAAAAAGTjQMJL8n20Ms="
 									},
 									"lineStyle": 1,
-									"points": "1184:209;1296:439",
+									"points": "1185:209;1296:439",
 									"showVisibility": true,
 									"nameLabel": {
 										"$ref": "AAAAAAGTjSkb0I/byDg="
@@ -7964,7 +7964,7 @@
 											"height": 13,
 											"alpha": -3.188616788194589,
 											"distance": 170.18813119603846,
-											"text": "9.1 : (quocgia.getMaQuocgia() == qg.getMaQuocgia())"
+											"text": "9.1 : (khuvuc.getMaKhuvuc() == kv.getMaKhuvuc())"
 										},
 										{
 											"_type": "NodeLabelView",
@@ -8069,8 +8069,8 @@
 											"visible": null,
 											"font": "Arial;13;0",
 											"parentStyle": false,
-											"left": 1213,
-											"top": 331,
+											"left": 1212,
+											"top": 330,
 											"height": 13,
 											"alpha": 1.5707963267948966,
 											"distance": 30,
@@ -8179,7 +8179,7 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"parentStyle": false,
-											"left": 1181,
+											"left": 1182,
 											"top": 232,
 											"height": 13,
 											"alpha": -0.5235987755982988,
@@ -8200,7 +8200,7 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"parentStyle": false,
-											"left": 1170,
+											"left": 1171,
 											"top": 240,
 											"height": 13,
 											"alpha": -0.7853981633974483,
@@ -8221,8 +8221,8 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"parentStyle": false,
-											"left": 1204,
-											"top": 216,
+											"left": 1205,
+											"top": 217,
 											"height": 13,
 											"alpha": 0.5235987755982988,
 											"distance": 25,
@@ -8240,7 +8240,7 @@
 										"$ref": "AAAAAAGTjSKsCUKJatA="
 									},
 									"lineStyle": 1,
-									"points": "1296:439;1184:209",
+									"points": "1296:439;1185:209",
 									"showVisibility": true,
 									"nameLabel": {
 										"$ref": "AAAAAAGTjS/QyRpBu6o="
@@ -8315,8 +8315,8 @@
 											"visible": null,
 											"font": "Arial;13;0",
 											"parentStyle": false,
-											"left": 1213,
-											"top": 331,
+											"left": 1212,
+											"top": 330,
 											"height": 13,
 											"alpha": 1.5707963267948966,
 											"distance": 30,
@@ -8425,7 +8425,7 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"parentStyle": false,
-											"left": 1181,
+											"left": 1182,
 											"top": 232,
 											"height": 13,
 											"alpha": -0.5235987755982988,
@@ -8446,7 +8446,7 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"parentStyle": false,
-											"left": 1170,
+											"left": 1171,
 											"top": 240,
 											"height": 13,
 											"alpha": -0.7853981633974483,
@@ -8467,8 +8467,8 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"parentStyle": false,
-											"left": 1204,
-											"top": 216,
+											"left": 1205,
+											"top": 217,
 											"height": 13,
 											"alpha": 0.5235987755982988,
 											"distance": 25,
@@ -8486,7 +8486,7 @@
 										"$ref": "AAAAAAGTjSKsCUKJatA="
 									},
 									"lineStyle": 1,
-									"points": "1296:439;1184:209",
+									"points": "1296:439;1185:209",
 									"showVisibility": true,
 									"nameLabel": {
 										"$ref": "AAAAAAGTjS/qMiFcdso="
@@ -8783,13 +8783,13 @@
 											},
 											"font": "Arial;13;0",
 											"parentStyle": false,
-											"left": 408.2978515625,
-											"top": 30.5,
+											"left": 287.2978515625,
+											"top": 22.5,
 											"width": 125.404296875,
 											"height": 13,
-											"alpha": 1.3733998054067393,
-											"distance": 10.198039027185569,
-											"text": "9.1.a.1 : qg = quocgia"
+											"alpha": -3.2834897199586637,
+											"distance": 120.20815280171308,
+											"text": "9.1.a.1 : kv = khuvuc"
 										},
 										{
 											"_type": "NodeLabelView",
@@ -8937,8 +8937,8 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"parentStyle": false,
-											"left": 1133,
-											"top": 232,
+											"left": 1134,
+											"top": 231,
 											"height": 13,
 											"alpha": 0.5235987755982988,
 											"distance": 30,
@@ -8959,7 +8959,7 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"parentStyle": false,
-											"left": 1141,
+											"left": 1142,
 											"top": 242,
 											"height": 13,
 											"alpha": 0.7853981633974483,
@@ -8981,7 +8981,7 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"parentStyle": false,
-											"left": 1116,
+											"left": 1117,
 											"top": 209,
 											"height": 13,
 											"alpha": -0.5235987755982988,
@@ -9064,7 +9064,7 @@
 										"$ref": "AAAAAAGTjQMJL8n20Ms="
 									},
 									"lineStyle": 1,
-									"points": "1141:209;921:431",
+									"points": "1142:209;921:431",
 									"showVisibility": true,
 									"nameLabel": {
 										"$ref": "AAAAAAGTjTGywVfPAs0="
@@ -13151,13 +13151,13 @@
 											},
 											"font": "Arial;13;0",
 											"parentStyle": false,
-											"left": 319.338623046875,
-											"top": 419,
+											"left": 312.338623046875,
+											"top": 418,
 											"width": 264.32275390625,
 											"height": 13,
-											"alpha": -0.044089050922786796,
-											"distance": 68.06614430096654,
-											"text": "10.1.b.1 : out.format(\"Quoc gia khong ton tai\")"
+											"alpha": -0.03277513903494913,
+											"distance": 61.032778078668514,
+											"text": "10.1.b.1 : out.format(\"Khu vuc khong ton tai\")"
 										},
 										{
 											"_type": "NodeLabelView",
@@ -13563,7 +13563,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGTjQDnSMefLT0="
 							},
-							"name": "timKiemQuocgia()",
+							"name": "timKiemKhuVuc()",
 							"source": {
 								"$ref": "AAAAAAGTjQFQnse2fkY="
 							},
@@ -13703,7 +13703,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGTjQDnSMefLT0="
 							},
-							"name": "setMaQuocgia(sc.nextInt())",
+							"name": "setMaKhuvuc(sc.nextInt())",
 							"source": {
 								"$ref": "AAAAAAGTjQHfpsfWiBw="
 							},
@@ -13753,7 +13753,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGTjQDnSMefLT0="
 							},
-							"name": "(quocgia.getMaQuocgia() == qg.getMaQuocgia())",
+							"name": "(khuvuc.getMaKhuvuc() == kv.getMaKhuvuc())",
 							"source": {
 								"$ref": "AAAAAAGTjQMJL8n1rcU="
 							},
@@ -13785,7 +13785,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGTjQDnSMefLT0="
 							},
-							"name": "qg = quocgia",
+							"name": "kv = khuvuc",
 							"source": {
 								"$ref": "AAAAAAGTjQHfpsfWiBw="
 							},
@@ -13875,7 +13875,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGTjQDnSMefLT0="
 							},
-							"name": "out.format(\"Quoc gia khong ton tai\")",
+							"name": "out.format(\"Khu vuc khong ton tai\")",
 							"source": {
 								"$ref": "AAAAAAGTjQHfpsfWiBw="
 							},
@@ -13924,7 +13924,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGTjQDnSMefLT0="
 							},
-							"name": "q1:  QuanlyQuocGia",
+							"name": "q3:  QuanlyKhuVuc",
 							"represent": {
 								"$ref": "AAAAAAGTjQHfpcfVAwI="
 							},
@@ -13936,7 +13936,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGTjQDnSMefLT0="
 							},
-							"name": "dsQuocGia: ArrayLIst<QuocGia>",
+							"name": "dsKhuVuc : ArrayList<KhuVuc>()",
 							"represent": {
 								"$ref": "AAAAAAGTjQMJL8n0X2U="
 							},
@@ -13948,7 +13948,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGTjQDnSMefLT0="
 							},
-							"name": "qg: QuocGia",
+							"name": "kv:  KhuVuc",
 							"represent": {
 								"$ref": "AAAAAAGTjQX13tX5r+c="
 							},
@@ -13985,7 +13985,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGTjQDnSMefLT0="
 							},
-							"name": "quocgia: QuocGia",
+							"name": "khuvuc: KhuVuc",
 							"represent": {
 								"$ref": "AAAAAAGTjSKsCUKHN04="
 							},

@@ -14,7 +14,7 @@ public class Test2 {
             System.out.format("3. Xoa khu vuc\n");
             System.out.format("4. Hien thi khu vuc\n");
             System.out.format("5. Tim kiem khu vuc\n");
-            System.out.format("6. Sap xep khu vuc theo ten\n");;
+            System.out.format("6. Sap xep khu vuc theo ten\n");
             System.out.format("7. Thoat\n");
             System.out.format("Chon chuc nang: ");
             chucNang = sc.nextInt();

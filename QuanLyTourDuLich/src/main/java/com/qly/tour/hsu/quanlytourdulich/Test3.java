@@ -27,6 +27,6 @@ public class Test3 {
                 case 7 -> System.out.format("Thoat chuong trinh");
                 default -> System.out.format("Sai cu phap");
             }
-        } while (chucNang != 8);
+        } while (chucNang != 7);
     }
 }

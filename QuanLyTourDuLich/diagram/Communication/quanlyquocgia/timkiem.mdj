@@ -3886,7 +3886,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGTjQDnSMefLT0="
 							},
-							"name": "capNhatQuocgia",
+							"name": "timKiemQuocgia",
 							"ownedViews": [
 								{
 									"_type": "UMLFrameView",
@@ -3908,9 +3908,9 @@
 											"parentStyle": true,
 											"left": 120.72998046875,
 											"top": 5,
-											"width": 96.83984375,
+											"width": 95.3671875,
 											"height": 13,
-											"text": "capNhatQuocgia"
+											"text": "timKiemQuocgia"
 										},
 										{
 											"_type": "LabelView",

@@ -57,7 +57,7 @@ public class QuanlyDiadiem {
         Scanner sc = new Scanner(System.in);
         Scanner sc0 = new Scanner(System.in);
         System.out.format("Nhap ma can tim: ");
-        dd.setMaDiadiem(sc.nextInt());
+        dd.setMaDiadiem(sc0.nextInt());
         for (DiaDiem diadiem : dsDiaDiem) {
             if (diadiem.getMaDiadiem() == dd.getMaDiadiem()) {
                 dd = diadiem;
