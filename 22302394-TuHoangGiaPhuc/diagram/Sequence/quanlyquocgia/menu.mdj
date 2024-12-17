@@ -262,7 +262,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGTXEZ5BREeLzQ="
 							},
-							"name": "QuanlyQuocGia",
+							"name": "Test",
 							"ownedViews": [
 								{
 									"_type": "UMLFrameView",
@@ -282,11 +282,11 @@
 											},
 											"font": "Arial;13;0",
 											"parentStyle": true,
-											"left": 24.72998046875,
+											"left": 48.72998046875,
 											"top": 5,
-											"width": 92.49169921875,
+											"width": 23.841796875,
 											"height": 13,
-											"text": "QuanlyQuocGia"
+											"text": "Test"
 										},
 										{
 											"_type": "LabelView",
@@ -296,7 +296,7 @@
 											},
 											"font": "Arial;13;1",
 											"parentStyle": true,
-											"left": 5,
+											"left": 29,
 											"top": 5,
 											"width": 13.72998046875,
 											"height": 13,
@@ -305,6 +305,7 @@
 									],
 									"font": "Arial;13;0",
 									"parentStyle": false,
+									"left": 24,
 									"width": 1504,
 									"height": 2688,
 									"nameLabel": {
@@ -2575,7 +2576,7 @@
 											"font": "Arial;13;0",
 											"parentStyle": false,
 											"left": 440,
-											"top": 855,
+											"top": 839,
 											"width": 94.67529296875,
 											"height": 13,
 											"alpha": -1.4056481899208588,
@@ -2599,7 +2600,7 @@
 											"font": "Arial;13;0",
 											"parentStyle": false,
 											"left": 489,
-											"top": 899,
+											"top": 883,
 											"height": 13,
 											"alpha": 1.5707963267948966,
 											"distance": 25,
@@ -2621,7 +2622,7 @@
 											"font": "Arial;13;0",
 											"parentStyle": false,
 											"left": 490,
-											"top": 864,
+											"top": 848,
 											"height": 13,
 											"alpha": -1.5707963267948966,
 											"distance": 10,
@@ -2643,7 +2644,7 @@
 											"font": "Arial;13;0",
 											"parentStyle": false,
 											"left": 372,
-											"top": 880,
+											"top": 864,
 											"width": 14,
 											"height": 25
 										}
@@ -2656,7 +2657,7 @@
 									"tail": {
 										"$ref": "AAAAAAGTXEzYZBG0k0A="
 									},
-									"points": "608:880;373:880",
+									"points": "608:864;373:864",
 									"nameLabel": {
 										"$ref": "AAAAAAGTXGnrBhWj7Wc="
 									},
@@ -5116,9 +5117,9 @@
 											},
 											"font": "Arial;13;0",
 											"parentStyle": true,
-											"left": 24.72998046875,
+											"left": 22.55908203125,
 											"top": 5,
-											"width": 80.20263671875,
+											"width": 72.921875,
 											"height": 13,
 											"text": "themQuocGia"
 										},
@@ -5132,7 +5133,7 @@
 											"parentStyle": true,
 											"left": 5,
 											"top": 5,
-											"width": 13.72998046875,
+											"width": 11.55908203125,
 											"height": 13,
 											"text": "sd"
 										}
@@ -5196,9 +5197,9 @@
 											},
 											"font": "Arial;13;0",
 											"parentStyle": true,
-											"left": 32.72998046875,
+											"left": 30.55908203125,
 											"top": 13,
-											"width": 99.7216796875,
+											"width": 90.23828125,
 											"height": 13,
 											"text": "capNhatQuocGia"
 										},
@@ -5212,7 +5213,7 @@
 											"parentStyle": true,
 											"left": 13,
 											"top": 13,
-											"width": 13.72998046875,
+											"width": 11.55908203125,
 											"height": 13,
 											"text": "sd"
 										}

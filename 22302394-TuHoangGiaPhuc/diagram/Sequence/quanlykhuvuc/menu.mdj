@@ -282,7 +282,7 @@
 											},
 											"font": "Arial;13;0",
 											"parentStyle": true,
-											"left": 24.72998046875,
+											"left": 48.72998046875,
 											"top": 5,
 											"width": 31.07177734375,
 											"height": 13,
@@ -296,7 +296,7 @@
 											},
 											"font": "Arial;13;1",
 											"parentStyle": true,
-											"left": 5,
+											"left": 29,
 											"top": 5,
 											"width": 13.72998046875,
 											"height": 13,
@@ -305,6 +305,7 @@
 									],
 									"font": "Arial;13;0",
 									"parentStyle": false,
+									"left": 24,
 									"width": 1504,
 									"height": 2688,
 									"nameLabel": {
@@ -2343,7 +2344,7 @@
 											"font": "Arial;13;0",
 											"parentStyle": false,
 											"left": 624,
-											"top": 743,
+											"top": 759,
 											"width": 225.29736328125,
 											"height": 13,
 											"alpha": -4.101663687136736,
@@ -2367,7 +2368,7 @@
 											"font": "Arial;13;0",
 											"parentStyle": false,
 											"left": 743,
-											"top": 729,
+											"top": 745,
 											"height": 13,
 											"alpha": 1.5707963267948966,
 											"distance": 25,
@@ -2389,7 +2390,7 @@
 											"font": "Arial;13;0",
 											"parentStyle": false,
 											"left": 743,
-											"top": 764,
+											"top": 780,
 											"height": 13,
 											"alpha": -1.5707963267948966,
 											"distance": 10,
@@ -2410,7 +2411,7 @@
 											"font": "Arial;13;0",
 											"parentStyle": false,
 											"left": 1113,
-											"top": 760,
+											"top": 776,
 											"width": 14,
 											"height": 28
 										}
@@ -2423,7 +2424,7 @@
 									"tail": {
 										"$ref": "AAAAAAGTXEf2exFbxGc="
 									},
-									"points": "373:760;1113:760",
+									"points": "373:776;1113:776",
 									"nameLabel": {
 										"$ref": "AAAAAAGTXGc1NhVudKs="
 									},
@@ -4902,9 +4903,9 @@
 											},
 											"font": "Arial;13;0",
 											"parentStyle": true,
-											"left": 120.72998046875,
+											"left": 118.55908203125,
 											"top": 13,
-											"width": 92.49169921875,
+											"width": 85.1982421875,
 											"height": 13,
 											"text": "QuanlyQuocGia"
 										},
@@ -4918,7 +4919,7 @@
 											"parentStyle": true,
 											"left": 101,
 											"top": 13,
-											"width": 13.72998046875,
+											"width": 11.55908203125,
 											"height": 13,
 											"text": "sd"
 										}
@@ -5116,9 +5117,9 @@
 											},
 											"font": "Arial;13;0",
 											"parentStyle": true,
-											"left": 24.72998046875,
+											"left": 22.55908203125,
 											"top": 5,
-											"width": 73.9501953125,
+											"width": 69.25927734375,
 											"height": 13,
 											"text": "themKhuVuc"
 										},
@@ -5132,7 +5133,7 @@
 											"parentStyle": true,
 											"left": 5,
 											"top": 5,
-											"width": 13.72998046875,
+											"width": 11.55908203125,
 											"height": 13,
 											"text": "sd"
 										}
@@ -5198,9 +5199,9 @@
 											"parentStyle": true,
 											"left": 30.55908203125,
 											"top": 13,
-											"width": 90.23828125,
+											"width": 86.57568359375,
 											"height": 13,
-											"text": "capNhatQuocGia"
+											"text": "capNhatKhuVuc"
 										},
 										{
 											"_type": "LabelView",
@@ -5280,9 +5281,9 @@
 											"parentStyle": true,
 											"left": 30.55908203125,
 											"top": 13,
-											"width": 62.81005859375,
+											"width": 59.92822265625,
 											"height": 13,
-											"text": "xoaQuocgia"
+											"text": "xoaKhuvuc"
 										},
 										{
 											"_type": "LabelView",
@@ -5362,9 +5363,9 @@
 											"parentStyle": true,
 											"left": 30.55908203125,
 											"top": 13,
-											"width": 54.15185546875,
+											"width": 51.27001953125,
 											"height": 13,
-											"text": "inQuocgia"
+											"text": "inKhuvuc"
 										},
 										{
 											"_type": "LabelView",
@@ -5444,9 +5445,9 @@
 											"parentStyle": true,
 											"left": 30.55908203125,
 											"top": 13,
-											"width": 93.1455078125,
+											"width": 89.48291015625,
 											"height": 13,
-											"text": "timKiemQuocGia"
+											"text": "timKiemKhuVuc"
 										},
 										{
 											"_type": "LabelView",
@@ -5526,9 +5527,9 @@
 											"parentStyle": true,
 											"left": 30.55908203125,
 											"top": 13,
-											"width": 131.9296875,
+											"width": 128.26708984375,
 											"height": 13,
-											"text": "sapXepQuocGiaTheoTen"
+											"text": "sapXepKhuVucTheoTen"
 										},
 										{
 											"_type": "LabelView",

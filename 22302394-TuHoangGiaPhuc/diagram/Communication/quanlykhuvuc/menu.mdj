@@ -3344,7 +3344,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGTjP8FUFlgFn8="
 							},
-							"name": "QuanlyQuocGia",
+							"name": "Test2",
 							"ownedViews": [
 								{
 									"_type": "UMLFrameView",
@@ -3364,11 +3364,11 @@
 											},
 											"font": "Arial;13;0",
 											"parentStyle": true,
-											"left": 112.72998046875,
+											"left": 104.72998046875,
 											"top": 5,
-											"width": 92.49169921875,
+											"width": 31.07177734375,
 											"height": 13,
-											"text": "QuanlyQuocGia"
+											"text": "Test2"
 										},
 										{
 											"_type": "LabelView",
@@ -3378,7 +3378,7 @@
 											},
 											"font": "Arial;13;1",
 											"parentStyle": true,
-											"left": 93,
+											"left": 85,
 											"top": 5,
 											"width": 13.72998046875,
 											"height": 13,
@@ -3387,7 +3387,7 @@
 									],
 									"font": "Arial;13;0",
 									"parentStyle": false,
-									"left": 88,
+									"left": 80,
 									"width": 1152,
 									"height": 960,
 									"nameLabel": {
@@ -3426,8 +3426,8 @@
 													"visible": false,
 													"font": "Arial;13;0",
 													"parentStyle": true,
-													"left": -26,
-													"top": -44,
+													"left": -42,
+													"top": -12,
 													"height": 13
 												},
 												{
@@ -3438,8 +3438,8 @@
 													},
 													"font": "Arial;13;1",
 													"parentStyle": true,
-													"left": 13,
-													"top": 134,
+													"left": 5,
+													"top": 150,
 													"width": 103,
 													"height": 13,
 													"text": ": Admin"
@@ -3453,8 +3453,8 @@
 													"visible": false,
 													"font": "Arial;13;0",
 													"parentStyle": true,
-													"left": -26,
-													"top": -44,
+													"left": -42,
+													"top": -12,
 													"width": 106.20263671875,
 													"height": 13,
 													"text": "(from Interaction1)"
@@ -3468,16 +3468,15 @@
 													"visible": false,
 													"font": "Arial;13;0",
 													"parentStyle": true,
-													"left": -26,
-													"top": -44,
+													"left": -42,
+													"top": -12,
 													"height": 13,
 													"horizontalAlignment": 1
 												}
 											],
 											"font": "Arial;13;0",
 											"parentStyle": true,
-											"left": 8,
-											"top": 127,
+											"top": 143,
 											"width": 113,
 											"height": 25,
 											"stereotypeLabel": {
@@ -3496,8 +3495,7 @@
 									],
 									"font": "Arial;13;0",
 									"parentStyle": false,
-									"left": 8,
-									"top": 72,
+									"top": 88,
 									"width": 112,
 									"height": 80,
 									"stereotypeDisplay": "icon",
@@ -3551,7 +3549,7 @@
 													"top": 116,
 													"width": 287,
 													"height": 13,
-													"text": ":Test"
+													"text": ":Test2"
 												},
 												{
 													"_type": "LabelView",
@@ -3765,7 +3763,7 @@
 													"top": 647,
 													"width": 207,
 													"height": 13,
-													"text": "q1: QuanlyQuocGia"
+													"text": "q2: QuanlyKhuVuc"
 												},
 												{
 													"_type": "LabelView",
@@ -3957,8 +3955,8 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"parentStyle": false,
-											"left": 244,
-											"top": 97,
+											"left": 240,
+											"top": 107,
 											"height": 13,
 											"alpha": 1.5707963267948966,
 											"distance": 15,
@@ -3979,8 +3977,8 @@
 											"visible": null,
 											"font": "Arial;13;0",
 											"parentStyle": false,
-											"left": 245,
-											"top": 82,
+											"left": 240,
+											"top": 92,
 											"height": 13,
 											"alpha": 1.5707963267948966,
 											"distance": 30,
@@ -4001,8 +3999,8 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"parentStyle": false,
-											"left": 243,
-											"top": 126,
+											"left": 240,
+											"top": 137,
 											"height": 13,
 											"alpha": -1.5707963267948966,
 											"distance": 15,
@@ -4023,8 +4021,8 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"parentStyle": false,
-											"left": 147,
-											"top": 93,
+											"left": 138,
+											"top": 107,
 											"height": 13,
 											"alpha": 0.5235987755982988,
 											"distance": 30,
@@ -4045,8 +4043,8 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"parentStyle": false,
-											"left": 150,
-											"top": 80,
+											"left": 141,
+											"top": 93,
 											"height": 13,
 											"alpha": 0.7853981633974483,
 											"distance": 40,
@@ -4067,8 +4065,8 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"parentStyle": false,
-											"left": 142,
-											"top": 121,
+											"left": 134,
+											"top": 134,
 											"height": 13,
 											"alpha": -0.5235987755982988,
 											"distance": 25,
@@ -4090,7 +4088,7 @@
 											"font": "Arial;13;0",
 											"parentStyle": false,
 											"left": 341,
-											"top": 101,
+											"top": 107,
 											"height": 13,
 											"alpha": -0.5235987755982988,
 											"distance": 30,
@@ -4110,8 +4108,8 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"parentStyle": false,
-											"left": 339,
-											"top": 87,
+											"left": 338,
+											"top": 93,
 											"height": 13,
 											"alpha": -0.7853981633974483,
 											"distance": 40,
@@ -4131,8 +4129,8 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"parentStyle": false,
-											"left": 344,
-											"top": 128,
+											"left": 345,
+											"top": 134,
 											"height": 13,
 											"alpha": 0.5235987755982988,
 											"distance": 25,
@@ -4150,7 +4148,7 @@
 										"$ref": "AAAAAAGTjP9oZ1l2NUo="
 									},
 									"lineStyle": 1,
-									"points": "121:114;367:123",
+									"points": "113:128;367:128",
 									"showVisibility": true,
 									"nameLabel": {
 										"$ref": "AAAAAAGTyCnyKpynnOI="
@@ -4202,8 +4200,8 @@
 											},
 											"font": "Arial;13;0",
 											"parentStyle": false,
-											"left": 189.234130859375,
-											"top": 92,
+											"left": 184.734130859375,
+											"top": 101.5,
 											"width": 110.53173828125,
 											"height": 13,
 											"alpha": 1.5707963267948966,
@@ -4222,8 +4220,8 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"parentStyle": false,
-											"left": 244.5,
-											"top": 77,
+											"left": 240,
+											"top": 86.5,
 											"height": 13,
 											"alpha": 1.5707963267948966,
 											"distance": 25
@@ -4240,8 +4238,8 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"parentStyle": false,
-											"left": 244.5,
-											"top": 92,
+											"left": 240,
+											"top": 101.5,
 											"height": 13,
 											"alpha": 1.5707963267948966,
 											"distance": 10
@@ -4249,10 +4247,9 @@
 									],
 									"font": "Arial;13;0",
 									"parentStyle": false,
-									"left": 225,
-									"top": 108,
-									"width": 39,
-									"height": 1,
+									"left": 220,
+									"top": 118,
+									"width": 40,
 									"alpha": 1.5707963267948966,
 									"distance": 10,
 									"hostEdge": {
@@ -5535,12 +5532,12 @@
 											},
 											"font": "Arial;13;0",
 											"parentStyle": false,
-											"left": 627.695556640625,
-											"top": 61.5,
+											"left": 223.695556640625,
+											"top": 22.5,
 											"width": 132.60888671875,
 											"height": 13,
-											"alpha": -0.022896759474150572,
-											"distance": 131.03434664239754,
+											"alpha": -3.2727043068201143,
+											"distance": 275.3633962602873,
 											"text": "4 : 1:*  [chucNang != 7]"
 										},
 										{
@@ -5874,7 +5871,7 @@
 											"height": 13,
 											"alpha": 1.5707963267948966,
 											"distance": 10,
-											"text": "4.1 : out.format(\"1. Them quoc gia\\n\")"
+											"text": "4.1 : out.format(\"1. Them khu vuc\\n\")"
 										},
 										{
 											"_type": "NodeLabelView",
@@ -6208,7 +6205,7 @@
 											"height": 13,
 											"alpha": 1.5707963267948966,
 											"distance": 10,
-											"text": "4.2 : out.format(\"2. Cap nhat thong tin quoc gia\\n\")"
+											"text": "4.2 : out.format(\"2. Cap nhat khu vuc\\n\")"
 										},
 										{
 											"_type": "NodeLabelView",
@@ -6542,7 +6539,7 @@
 											"height": 13,
 											"alpha": 1.5707963267948966,
 											"distance": 10,
-											"text": "4.3 : out.format(\"3. Xoa quoc gia\\n\")"
+											"text": "4.3 : out.format(\"3. Xoa khu vuc\\n\")"
 										},
 										{
 											"_type": "NodeLabelView",
@@ -6876,7 +6873,7 @@
 											"height": 13,
 											"alpha": 1.5707963267948966,
 											"distance": 10,
-											"text": "4.4 : out.format(\"4. Hien danh sach quoc gia\\n\")"
+											"text": "4.4 : out.format(\"4. Hien thi khu vuc\\n\")"
 										},
 										{
 											"_type": "NodeLabelView",
@@ -7210,7 +7207,7 @@
 											"height": 13,
 											"alpha": 1.5707963267948966,
 											"distance": 10,
-											"text": "4.5 : out.format(\"5. Tim kiem quoc gia\\n\")"
+											"text": "4.5 : out.format(\"5. Tim kiem khu vuc\\n\")"
 										},
 										{
 											"_type": "NodeLabelView",
@@ -7544,7 +7541,7 @@
 											"height": 13,
 											"alpha": 1.5707963267948966,
 											"distance": 10,
-											"text": "4.6 : out.format(\"6. Sap xep quoc gia theo ten\\n\")"
+											"text": "4.6 : out.format(\"6. Sap xep khu vuc theo ten\\n\")"
 										},
 										{
 											"_type": "NodeLabelView",
@@ -11867,7 +11864,7 @@
 											"height": 13,
 											"alpha": 1.5707963267948966,
 											"distance": 10,
-											"text": "4.10.a.1.1 : themQuocgia()"
+											"text": "4.10.a.1.1 : themKhuVuc()"
 										},
 										{
 											"_type": "NodeLabelView",
@@ -12201,7 +12198,7 @@
 											"height": 13,
 											"alpha": 1.5707963267948966,
 											"distance": 10,
-											"text": "4.10.b.1.1 : capNhatQuocgia()"
+											"text": "4.10.b.1.1 : capNhatKhuVuc()"
 										},
 										{
 											"_type": "NodeLabelView",
@@ -12535,7 +12532,7 @@
 											"height": 13,
 											"alpha": 1.5707963267948966,
 											"distance": 10,
-											"text": "4.10.c.1.1 : xoaQuocgia()"
+											"text": "4.10.c.1.1 : xoaKhuvuc()"
 										},
 										{
 											"_type": "NodeLabelView",
@@ -12869,7 +12866,7 @@
 											"height": 13,
 											"alpha": 1.5707963267948966,
 											"distance": 10,
-											"text": "4.10.d.1.1 : inQuocgia()"
+											"text": "4.10.d.1.1 : inKhuvuc()"
 										},
 										{
 											"_type": "NodeLabelView",
@@ -13203,7 +13200,7 @@
 											"height": 13,
 											"alpha": 1.5707963267948966,
 											"distance": 10,
-											"text": "4.10.e.1.1 : timKiemQuocGia()"
+											"text": "4.10.e.1.1 : timKiemKhuVuc()"
 										},
 										{
 											"_type": "NodeLabelView",
@@ -13537,7 +13534,7 @@
 											"height": 13,
 											"alpha": -4.248742171384204,
 											"distance": 11.180339887498949,
-											"text": "4.10.f.1.1 : sapXepQuocGiaTheoTen()"
+											"text": "4.10.f.1.1 : sapXepKhuVucTheoTen()"
 										},
 										{
 											"_type": "NodeLabelView",
@@ -14290,23 +14287,6 @@
 						},
 						{
 							"_type": "UMLMessage",
-							"_id": "AAAAAAGTyCshm57XzK0=",
-							"_parent": {
-								"$ref": "AAAAAAGTjP8FUFlgFn8="
-							},
-							"name": "Message1",
-							"source": {
-								"$ref": "AAAAAAGTyCiPspwvMIU="
-							},
-							"target": {
-								"$ref": "AAAAAAGTyCiPspwvMIU="
-							},
-							"connector": {
-								"$ref": "AAAAAAGTyCshmp7J8IA="
-							}
-						},
-						{
-							"_type": "UMLMessage",
 							"_id": "AAAAAAGTyCtBKqEKllU=",
 							"_parent": {
 								"$ref": "AAAAAAGTjP8FUFlgFn8="
@@ -14383,7 +14363,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGTjP8FUFlgFn8="
 							},
-							"name": "out.format(\"1. Them quoc gia\\n\")",
+							"name": "out.format(\"1. Them khu vuc\\n\")",
 							"source": {
 								"$ref": "AAAAAAGTyCiPspwvMIU="
 							},
@@ -14401,7 +14381,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGTjP8FUFlgFn8="
 							},
-							"name": "out.format(\"2. Cap nhat thong tin quoc gia\\n\")",
+							"name": "out.format(\"2. Cap nhat khu vuc\\n\")",
 							"source": {
 								"$ref": "AAAAAAGTyCiPspwvMIU="
 							},
@@ -14419,7 +14399,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGTjP8FUFlgFn8="
 							},
-							"name": "out.format(\"3. Xoa quoc gia\\n\")",
+							"name": "out.format(\"3. Xoa khu vuc\\n\")",
 							"source": {
 								"$ref": "AAAAAAGTyCiPspwvMIU="
 							},
@@ -14437,7 +14417,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGTjP8FUFlgFn8="
 							},
-							"name": "out.format(\"4. Hien danh sach quoc gia\\n\")",
+							"name": "out.format(\"4. Hien thi khu vuc\\n\")",
 							"source": {
 								"$ref": "AAAAAAGTyCiPspwvMIU="
 							},
@@ -14455,7 +14435,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGTjP8FUFlgFn8="
 							},
-							"name": "out.format(\"5. Tim kiem quoc gia\\n\")",
+							"name": "out.format(\"5. Tim kiem khu vuc\\n\")",
 							"source": {
 								"$ref": "AAAAAAGTyCiPspwvMIU="
 							},
@@ -14473,7 +14453,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGTjP8FUFlgFn8="
 							},
-							"name": "out.format(\"6. Sap xep quoc gia theo ten\\n\")",
+							"name": "out.format(\"6. Sap xep khu vuc theo ten\\n\")",
 							"source": {
 								"$ref": "AAAAAAGTyCiPspwvMIU="
 							},
@@ -14707,7 +14687,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGTjP8FUFlgFn8="
 							},
-							"name": "themQuocgia()",
+							"name": "themKhuVuc()",
 							"source": {
 								"$ref": "AAAAAAGTyCiPspwvMIU="
 							},
@@ -14725,7 +14705,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGTjP8FUFlgFn8="
 							},
-							"name": "capNhatQuocgia()",
+							"name": "capNhatKhuVuc()",
 							"source": {
 								"$ref": "AAAAAAGTyCiPspwvMIU="
 							},
@@ -14743,7 +14723,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGTjP8FUFlgFn8="
 							},
-							"name": "xoaQuocgia()",
+							"name": "xoaKhuvuc()",
 							"source": {
 								"$ref": "AAAAAAGTyCiPspwvMIU="
 							},
@@ -14761,7 +14741,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGTjP8FUFlgFn8="
 							},
-							"name": "inQuocgia()",
+							"name": "inKhuvuc()",
 							"source": {
 								"$ref": "AAAAAAGTyCiPspwvMIU="
 							},
@@ -14779,7 +14759,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGTjP8FUFlgFn8="
 							},
-							"name": "timKiemQuocGia()",
+							"name": "timKiemKhuVuc()",
 							"source": {
 								"$ref": "AAAAAAGTyCiPspwvMIU="
 							},
@@ -14797,7 +14777,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGTjP8FUFlgFn8="
 							},
-							"name": "sapXepQuocGiaTheoTen()",
+							"name": "sapXepKhuVucTheoTen()",
 							"source": {
 								"$ref": "AAAAAAGTyCiPspwvMIU="
 							},
@@ -14864,7 +14844,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGTjP8FUFlgFn8="
 							},
-							"name": ":Test",
+							"name": ":Test2",
 							"stereotype": "metaclass",
 							"represent": {
 								"$ref": "AAAAAAGTyCiPspwuu/Y="
@@ -14889,7 +14869,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGTjP8FUFlgFn8="
 							},
-							"name": "q1: QuanlyQuocGia",
+							"name": "q2: QuanlyKhuVuc",
 							"represent": {
 								"$ref": "AAAAAAGTyClX2ZxotTU="
 							},
