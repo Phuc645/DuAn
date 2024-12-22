@@ -4,8 +4,13 @@ public class Customer {
     private String name;
     private String email;
     private String phone;
-    public Customer() {
 
+    public Customer() {
+        
+    }
+
+    public Customer(String name) {
+        this.name = name;
     }
 
     public Customer(String name, String email, String phone) {
