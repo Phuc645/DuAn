@@ -13,6 +13,8 @@ public class TicketManagementCustomer {
         Scanner sc0 = new Scanner(System.in);
         System.out.format("Enter the name of the customer: ");
         t1.setName(sc.nextLine());
+        System.out.format("Enter the concert name: ");
+        t1.setConcert(sc.nextLine());
         System.out.format("Enter the ticket type(VIP or General): ");
         t1.setTicketType(sc.nextLine());
         System.out.format("Enter the date: ");
@@ -27,6 +29,7 @@ public class TicketManagementCustomer {
                 vip.add(t1);
             }
             System.out.format("Tickets added successfully");
+            displayTickets();
         } else if (t1.getTicketType().equals("General")) {
             System.out.format("Price per ticket: $30\n");
             System.out.format("Enter the quantity: ");
@@ -37,6 +40,41 @@ public class TicketManagementCustomer {
                 general.add(t1);
             }
             System.out.format("Tickets added successfully");
+            displayTickets();
+        } else {
+            System.out.format("Invalid ticket type");
+        }
+    }
+
+    public void removeTicket() {
+        Ticket t1 = new Ticket();
+        Scanner sc = new Scanner(System.in);
+        System.out.format("Enter the name of the customer: ");
+        t1.setName(sc.nextLine());
+        System.out.format("Enter the ticket type(VIP or General): ");
+        t1.setTicketType(sc.nextLine());
+        System.out.format("Enter the concert name: ");
+        t1.setConcert(sc.nextLine());
+        System.out.format("Enter the date: ");
+        t1.setDate(sc.nextLine());
+        if (t1.getTicketType().equals("VIP")) {
+            for (Ticket t : vip) {
+                if (t.getName().equals(t1.getName()) && t.getConcert().equals(t1.getConcert())
+                        && t.getDate().equals(t1.getDate())) {
+                    vip.remove(t);
+                    System.out.format("Tickets removed successfully");
+                    displayTickets();
+                }
+            }
+        } else if (t1.getTicketType().equals("General")) {
+            for (Ticket t : general) {
+                if (t.getName().equals(t1.getName()) && t.getConcert().equals(t1.getConcert())
+                        && t.getDate().equals(t1.getDate())) {
+                    general.remove(t);
+                    System.out.format("Tickets removed successfully");
+                    displayTickets();
+                }
+            }
         } else {
             System.out.format("Invalid ticket type");
         }
@@ -48,14 +86,14 @@ public class TicketManagementCustomer {
         Scanner sc = new Scanner(System.in);
         t1.setTicketType(sc.nextLine());
         if (t1.getTicketType().equals("VIP")) {
-            for (int i = 0; i < vip.size(); i++) {
-                System.out.format("%s %d %s %d %s\n", vip.get(i).getName(), vip.get(i).getSeat(),
-                        vip.get(i).getConcert(), vip.get(i).getQuantity(), vip.get(i).getDate());
+            for (Ticket t : vip) {
+                System.out.format("%s %d %s %d %s\n", t.getName(), t.getSeat(), t.getConcert(), t.getQuantity(),
+                        t.getDate());
             }
         } else if (t1.getTicketType().equals("General")) {
-            for (int i = 0; i < general.size(); i++) {
-                System.out.format("%s %d %s %d %s\n", general.get(i).getName(), general.get(i).getSeat(),
-                        general.get(i).getConcert(), general.get(i).getQuantity(), general.get(i).getDate());
+            for (Ticket t : general) {
+                System.out.format("%s %d %s %d %s\n", t.getName(), t.getSeat(), t.getConcert(), t.getQuantity(),
+                        t.getDate());
             }
         } else {
             System.out.format("Invalid ticket type");
