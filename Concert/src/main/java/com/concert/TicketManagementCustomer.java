@@ -29,8 +29,7 @@ public class TicketManagementCustomer {
                 t1.setSeat(sc0.nextInt());
                 vip.add(t1);
             }
-            System.out.format("Tickets added successfully");
-            displayTickets();
+            System.out.format("Tickets added successfully\n");
         } else if (t1.getTicketType().equals("General")) {
             System.out.format("Price per ticket: $30\n");
             System.out.format("Enter the quantity: ");
@@ -40,8 +39,7 @@ public class TicketManagementCustomer {
                 t1.setSeat(sc0.nextInt());
                 general.add(t1);
             }
-            System.out.format("Tickets added successfully");
-            displayTickets();
+            System.out.format("Tickets added successfully\n");
         } else {
             System.out.format("Invalid ticket type");
         }
