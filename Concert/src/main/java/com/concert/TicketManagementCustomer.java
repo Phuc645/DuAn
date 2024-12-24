@@ -1,12 +1,13 @@
 package com.concert;
 
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.Scanner;
 
 public class TicketManagementCustomer {
     private ArrayList<Ticket> vip = new ArrayList<Ticket>(5);
     private ArrayList<Ticket> general = new ArrayList<Ticket>(10);
-
     public void addTicket() {
         Ticket t1 = new Ticket();
         Scanner sc = new Scanner(System.in);
@@ -44,6 +45,58 @@ public class TicketManagementCustomer {
         } else {
             System.out.format("Invalid ticket type");
         }
+    }
+    public void updateTicket() {
+        Ticket t1 = new Ticket();
+        Scanner sc = new Scanner(System.in);
+        System.out.format("Enter the name of the customer: ");
+        t1.setName(sc.nextLine());
+        System.out.format("Enter the concert name: ");
+        t1.setConcert(sc.nextLine());
+        System.out.format("Enter the date: ");
+        t1.setDate(sc.nextLine());
+        System.out.format("Enter the ticket type(VIP or General): ");
+        t1.setTicketType(sc.nextLine());
+        if (t1.getTicketType().equals("VIP")) {
+            for (Ticket t : vip) {
+                if (t.getName().equals(t1.getName()) && t.getConcert().equals(t1.getConcert())
+                        && t.getDate().equals(t1.getDate())) {
+                    System.out.format("Enter the quantity: ");
+                    t.setQuantity(sc.nextInt());
+                    System.out.format("Enter the seat number: ");
+                    t.setSeat(sc.nextInt());
+                    System.out.format("Tickets updated successfully");
+                }
+            }
+        } else if (t1.getTicketType().equals("General")) {
+            for (Ticket t : general) {
+                if (t.getName().equals(t1.getName()) && t.getConcert().equals(t1.getConcert())
+                        && t.getDate().equals(t1.getDate())) {
+                    System.out.format("Enter the quantity: ");
+                    t.setQuantity(sc.nextInt());
+                    System.out.format("Enter the seat number: ");
+                    t.setSeat(sc.nextInt());
+                    System.out.format("Tickets updated successfully");
+                }
+            }
+        } else {
+            System.out.format("Invalid ticket type");
+        }   
+    }
+    public void sortTickets() {
+        Comparator<Ticket> sortTypes = new Comparator<Ticket>() {
+            @Override
+            public int compare(Ticket o1, Ticket o2) {
+                if (o1.getConcert().compareTo(o2.getConcert()) > 0) {
+                    return 1;
+                } else if (o1.getConcert().compareTo(o2.getConcert()) < 0) {
+                    return -1;
+                } else {
+                    return 0;
+                }
+            }    
+        };
+        Collections.sort(vip, sortTypes);
     }
 
     public void removeTicket() {
